@@ -10,14 +10,1693 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[       840,         34]
-NotebookOptionsPosition[       561,         21]
-NotebookOutlinePosition[       980,         37]
-CellTagsIndexPosition[       937,         34]
+NotebookDataLength[     80289,       1831]
+NotebookOptionsPosition[     73155,       1700]
+NotebookOutlinePosition[     73574,       1716]
+CellTagsIndexPosition[     73531,       1713]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"PacletInstall", "[", "\"\<Wolfram/GitLink\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8800625892086124`*^9, 3.880062596017603*^9}},
+ CellLabel->"In[74]:=",ExpressionUUID->"82cbdd24-4f37-4d89-8a9c-e8a8f9d3e71c"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["PacletObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxOpener"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              Thickness[0.0416667], {
+               FaceForm[{
+                 RGBColor[0.961, 0.961, 0.961], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{12.5454, 
+                22.5972}, {7.5464, 20.5002}, {2.5454, 18.4022}, {2.5454, 
+                12.5982}, {2.5454, 12.5972}, {2.5454, 6.7952}, {7.5454, 
+                4.6962}, {7.546, 4.6972}, {12.5454, 2.5992}, {17.5454, 
+                4.6972}, {17.5454, 4.6962}, {22.5454, 6.7952}, {22.5454, 
+                12.5972}, {22.5454, 12.5982}, {22.5454, 18.4022}}}]}, {
+               FaceForm[{
+                 RGBColor[0.898, 0.898, 0.898], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{17.125, 8.3359}, {17.125, 
+                14.0569}, {16.875, 14.0569}, {16.875, 8.3359}, {17., 
+                8.1169}, {21.952, 6.0399}, {22.049, 6.2709}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{7.125, 8.3359}, {7.125, 14.0569}, {
+                6.875, 14.0569}, {6.875, 8.3359}, {1.952, 6.2709}, {2.048, 
+                6.0399}, {7., 8.1169}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}}}, {{{11.8745, 6.2383}, {6.9515, 4.1733}, {7.0475, 
+                3.9423}, {11.9995, 6.0193}, {16.9515, 3.9423}, {17.0475, 
+                4.1733}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{17.125, 14.1392}, {17.125, 
+                19.8602}, {16.875, 19.8602}, {16.875, 14.1392}, {17., 
+                13.9202}, {21.952, 11.8432}, {22.049, 12.0742}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{7.125, 14.1392}, {7.125, 19.8602}, {
+                6.875, 19.8602}, {6.875, 14.1392}, {1.952, 12.0742}, {2.048, 
+                11.8432}, {7., 13.9202}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}}}, {{{11.8746, 21.3633}, {11.8746, 18.3563}, {
+                11.9996, 18.3033}, {12.1246, 18.3563}, {12.1246, 21.3633}, {
+                11.9996, 21.4153}}}]}, {
+               FaceForm[{
+                 RGBColor[0.749, 0.749, 0.749], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
+                 3}}}, {{{8.292, 19.8594}, {12., 21.4154}, {15.707, 
+                 19.8594}, {12., 18.3034}}, {{17.5, 19.5274}, {17.5, 
+                 20.1924}, {12., 22.5004}, {6.5, 20.1924}, {6.5, 19.5284}, {
+                 12., 17.2194}, {12., 17.2194}, {15.7, 18.7724}, {17.5, 
+                 19.5274}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}}}, {{{11.5, 8.5156}, {11.5, 6.4876}, {11.5, 
+                5.4026}, {12.5, 5.8226}, {12.5, 8.5156}, {12., 8.3056}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                 0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}, {0, 1, 0}}}, {{{21.5, 6.4873}, {17.5, 4.8083}, {17.5, 
+                 9.5283}, {21.5, 11.2073}}, {{21.5, 12.7113}, {21.5, 
+                 12.2913}, {17., 10.4033}, {16.5, 10.6133}, {16.5, 10.1943}, {
+                 15.707, 9.8613}, {16.5, 9.5283}, {16.5, 4.8083}, {16.5, 
+                 4.8093}, {16.5, 4.3903}, {15.707, 4.0573}, {17., 3.5143}, {
+                 22.5, 5.8223}, {22.5, 12.2913}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                 0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}, {0, 1, 0}}}, {{{6.5, 4.8086}, {2.5, 6.4876}, {2.5, 
+                 11.2066}, {6.5, 9.5286}}, {{7.5, 9.1096}, {7.5, 9.1096}, {
+                 7.5, 9.5286}, {8.292, 9.8616}, {7.5, 10.1936}, {7.5, 
+                 10.6136}, {7., 10.4036}, {2.5, 12.2906}, {2.5, 12.7106}, {
+                 1.5, 12.2916}, {1.5, 5.8226}, {7., 3.5146}, {8.293, 
+                 4.0576}, {7.5, 4.3906}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                 0, 1, 0}, {0, 1, 0}}}, {{{3.2925, 17.7622}, {7.0005, 
+                 19.3182}, {10.7075, 17.7622}, {7.0005, 16.2062}}, {{6.5005, 
+                 10.6122}, {2.5005, 12.2912}, {2.5005, 17.0102}, {6.5005, 
+                 15.3322}}, {{7.5005, 10.1932}, {7.5005, 10.6122}, {7.5005, 
+                 15.3322}, {12.0005, 17.2202}, {12.5005, 17.0102}, {12.5005, 
+                 18.0952}, {7.0005, 20.4032}, {1.5005, 18.0952}, {1.5005, 
+                 11.6262}, {7.0005, 9.3182}, {8.2935, 9.8612}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                 0, 1, 0}, {0, 1, 0}}}, {{{21.5, 12.291}, {17.5, 10.612}, {
+                 17.5, 15.332}, {21.5, 17.01}}, {{13.293, 17.762}, {17., 
+                 19.318}, {20.708, 17.762}, {17., 16.207}}, {{17., 20.403}, {
+                 11.5, 18.095}, {11.5, 17.01}, {12., 17.22}, {16.5, 15.332}, {
+                 16.5, 10.612}, {16.5, 10.194}, {15.706, 9.861}, {17., 
+                 9.318}, {22.5, 11.626}, {22.5, 18.095}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                 0, 1, 0}, {0, 1, 0}}}, {{{16.4995, 4.3906}, {12.4995, 
+                 2.7116}, {12.4995, 7.4316}, {16.4995, 9.1096}}, {{11.4995, 
+                 2.7116}, {7.4995, 4.3906}, {7.4995, 9.1096}, {11.4995, 
+                 7.4316}}, {{16.4995, 10.6136}, {16.4995, 10.1946}, {11.9995, 
+                 8.3056}, {8.2915, 9.8616}, {7.4995, 10.1936}, {7.4995, 
+                 10.6146}, {6.4995, 10.1946}, {6.4995, 3.7256}, {11.9995, 
+                 1.4176}, {17.4995, 3.7256}, {17.4995, 10.1946}}}]}, {
+               FaceForm[{
+                 RGBColor[0.965, 0.765, 0.749], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}}}, {{{12., 17.6616}, {16.945, 15.5856}, {16.945, 
+                9.9376}, {12., 7.8636}, {7.055, 9.9376}, {7.055, 
+                15.5856}}}]}, {
+               FaceForm[{
+                 RGBColor[0.91, 0.655, 0.635], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{12.125, 
+                17.7627}, {11.875, 17.7627}, {11.875, 12.0407}, {6.952, 
+                9.9757}, {7.048, 9.7447}, {12., 11.8227}, {16.952, 9.7447}, {
+                17.048, 9.9757}, {12.125, 12.0407}}}]}, {
+               FaceForm[{
+                 RGBColor[0.867, 0.067, 0.], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}}}, {{{12.5, 8.5146}, {12.5, 13.2336}, {16.5, 14.9116}, {
+                 16.5, 10.1926}}, {{7.5, 14.9116}, {11.5, 13.2336}, {11.5, 
+                 8.5146}, {7.5, 10.1926}}, {{15.708, 15.6636}, {12., 
+                 14.1086}, {8.292, 15.6636}, {12., 17.2206}}, {{12., 
+                 18.3046}, {6.5, 15.9956}, {6.5, 9.5286}, {12., 7.2206}, {
+                 17.5, 9.5286}, {17.5, 15.9956}}}]}}, AspectRatio -> 
+             Automatic, ImageSize -> {24., 24.}, 
+             PlotRange -> {{0., 24.}, {0., 24.}}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"Wolfram/GitLink\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"1.1.0\"", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxCloser"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              Thickness[0.0416667], {
+               FaceForm[{
+                 RGBColor[0.961, 0.961, 0.961], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{12.5454, 
+                22.5972}, {7.5464, 20.5002}, {2.5454, 18.4022}, {2.5454, 
+                12.5982}, {2.5454, 12.5972}, {2.5454, 6.7952}, {7.5454, 
+                4.6962}, {7.546, 4.6972}, {12.5454, 2.5992}, {17.5454, 
+                4.6972}, {17.5454, 4.6962}, {22.5454, 6.7952}, {22.5454, 
+                12.5972}, {22.5454, 12.5982}, {22.5454, 18.4022}}}]}, {
+               FaceForm[{
+                 RGBColor[0.898, 0.898, 0.898], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{17.125, 8.3359}, {17.125, 
+                14.0569}, {16.875, 14.0569}, {16.875, 8.3359}, {17., 
+                8.1169}, {21.952, 6.0399}, {22.049, 6.2709}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{7.125, 8.3359}, {7.125, 14.0569}, {
+                6.875, 14.0569}, {6.875, 8.3359}, {1.952, 6.2709}, {2.048, 
+                6.0399}, {7., 8.1169}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}}}, {{{11.8745, 6.2383}, {6.9515, 4.1733}, {7.0475, 
+                3.9423}, {11.9995, 6.0193}, {16.9515, 3.9423}, {17.0475, 
+                4.1733}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{17.125, 14.1392}, {17.125, 
+                19.8602}, {16.875, 19.8602}, {16.875, 14.1392}, {17., 
+                13.9202}, {21.952, 11.8432}, {22.049, 12.0742}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{7.125, 14.1392}, {7.125, 19.8602}, {
+                6.875, 19.8602}, {6.875, 14.1392}, {1.952, 12.0742}, {2.048, 
+                11.8432}, {7., 13.9202}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}}}, {{{11.8746, 21.3633}, {11.8746, 18.3563}, {
+                11.9996, 18.3033}, {12.1246, 18.3563}, {12.1246, 21.3633}, {
+                11.9996, 21.4153}}}]}, {
+               FaceForm[{
+                 RGBColor[0.749, 0.749, 0.749], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
+                 3}}}, {{{8.292, 19.8594}, {12., 21.4154}, {15.707, 
+                 19.8594}, {12., 18.3034}}, {{17.5, 19.5274}, {17.5, 
+                 20.1924}, {12., 22.5004}, {6.5, 20.1924}, {6.5, 19.5284}, {
+                 12., 17.2194}, {12., 17.2194}, {15.7, 18.7724}, {17.5, 
+                 19.5274}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}}}, {{{11.5, 8.5156}, {11.5, 6.4876}, {11.5, 
+                5.4026}, {12.5, 5.8226}, {12.5, 8.5156}, {12., 8.3056}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                 0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}, {0, 1, 0}}}, {{{21.5, 6.4873}, {17.5, 4.8083}, {17.5, 
+                 9.5283}, {21.5, 11.2073}}, {{21.5, 12.7113}, {21.5, 
+                 12.2913}, {17., 10.4033}, {16.5, 10.6133}, {16.5, 10.1943}, {
+                 15.707, 9.8613}, {16.5, 9.5283}, {16.5, 4.8083}, {16.5, 
+                 4.8093}, {16.5, 4.3903}, {15.707, 4.0573}, {17., 3.5143}, {
+                 22.5, 5.8223}, {22.5, 12.2913}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                 0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}, {0, 1, 0}}}, {{{6.5, 4.8086}, {2.5, 6.4876}, {2.5, 
+                 11.2066}, {6.5, 9.5286}}, {{7.5, 9.1096}, {7.5, 9.1096}, {
+                 7.5, 9.5286}, {8.292, 9.8616}, {7.5, 10.1936}, {7.5, 
+                 10.6136}, {7., 10.4036}, {2.5, 12.2906}, {2.5, 12.7106}, {
+                 1.5, 12.2916}, {1.5, 5.8226}, {7., 3.5146}, {8.293, 
+                 4.0576}, {7.5, 4.3906}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                 0, 1, 0}, {0, 1, 0}}}, {{{3.2925, 17.7622}, {7.0005, 
+                 19.3182}, {10.7075, 17.7622}, {7.0005, 16.2062}}, {{6.5005, 
+                 10.6122}, {2.5005, 12.2912}, {2.5005, 17.0102}, {6.5005, 
+                 15.3322}}, {{7.5005, 10.1932}, {7.5005, 10.6122}, {7.5005, 
+                 15.3322}, {12.0005, 17.2202}, {12.5005, 17.0102}, {12.5005, 
+                 18.0952}, {7.0005, 20.4032}, {1.5005, 18.0952}, {1.5005, 
+                 11.6262}, {7.0005, 9.3182}, {8.2935, 9.8612}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                 0, 1, 0}, {0, 1, 0}}}, {{{21.5, 12.291}, {17.5, 10.612}, {
+                 17.5, 15.332}, {21.5, 17.01}}, {{13.293, 17.762}, {17., 
+                 19.318}, {20.708, 17.762}, {17., 16.207}}, {{17., 20.403}, {
+                 11.5, 18.095}, {11.5, 17.01}, {12., 17.22}, {16.5, 15.332}, {
+                 16.5, 10.612}, {16.5, 10.194}, {15.706, 9.861}, {17., 
+                 9.318}, {22.5, 11.626}, {22.5, 18.095}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                 0, 1, 0}, {0, 1, 0}}}, {{{16.4995, 4.3906}, {12.4995, 
+                 2.7116}, {12.4995, 7.4316}, {16.4995, 9.1096}}, {{11.4995, 
+                 2.7116}, {7.4995, 4.3906}, {7.4995, 9.1096}, {11.4995, 
+                 7.4316}}, {{16.4995, 10.6136}, {16.4995, 10.1946}, {11.9995, 
+                 8.3056}, {8.2915, 9.8616}, {7.4995, 10.1936}, {7.4995, 
+                 10.6146}, {6.4995, 10.1946}, {6.4995, 3.7256}, {11.9995, 
+                 1.4176}, {17.4995, 3.7256}, {17.4995, 10.1946}}}]}, {
+               FaceForm[{
+                 RGBColor[0.965, 0.765, 0.749], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}}}, {{{12., 17.6616}, {16.945, 15.5856}, {16.945, 
+                9.9376}, {12., 7.8636}, {7.055, 9.9376}, {7.055, 
+                15.5856}}}]}, {
+               FaceForm[{
+                 RGBColor[0.91, 0.655, 0.635], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{12.125, 
+                17.7627}, {11.875, 17.7627}, {11.875, 12.0407}, {6.952, 
+                9.9757}, {7.048, 9.7447}, {12., 11.8227}, {16.952, 9.7447}, {
+                17.048, 9.9757}, {12.125, 12.0407}}}]}, {
+               FaceForm[{
+                 RGBColor[0.867, 0.067, 0.], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}}}, {{{12.5, 8.5146}, {12.5, 13.2336}, {16.5, 14.9116}, {
+                 16.5, 10.1926}}, {{7.5, 14.9116}, {11.5, 13.2336}, {11.5, 
+                 8.5146}, {7.5, 10.1926}}, {{15.708, 15.6636}, {12., 
+                 14.1086}, {8.292, 15.6636}, {12., 17.2206}}, {{12., 
+                 18.3046}, {6.5, 15.9956}, {6.5, 9.5286}, {12., 7.2206}, {
+                 17.5, 9.5286}, {17.5, 15.9956}}}]}}, AspectRatio -> 
+             Automatic, ImageSize -> {24., 24.}, 
+             PlotRange -> {{0., 24.}, {0., 24.}}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"Wolfram/GitLink\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"1.1.0\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Location: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"C:\\\\Users\\\\Peter\\\\AppData\\\\Roaming\\\\Mathematica\
+\\\\Paclets\\\\Repository\\\\Wolfram__GitLink-1.1.0\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                  "\"Integrate git functionality into the Wolfram Language\"",
+                    Short], "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  PacletObject[<|
+   "Name" -> "Wolfram/GitLink", "Description" -> 
+    "Integrate git functionality into the Wolfram Language", "Creator" -> 
+    "John Fultz <jfultz@wolfram.com>", "URL" -> 
+    "https://resources.wolframcloud.com/PacletRepository/resources/Wolfram/\
+GitLink", "SourceControlURL" -> "https://github.com/WolframResearch/GitLink", 
+    "License" -> "CC-BY-NC-4.0", "PublisherID" -> "Wolfram", "Version" -> 
+    "1.1.0", "WolframVersion" -> "13.0+", 
+    "Extensions" -> {{
+      "Documentation", "Root" -> "Documentation", "Language" -> "English"}, {
+      "Kernel", "Root" -> "Kernel", "Context" -> "Wolfram`GitLink`", 
+       "Symbols" -> {
+        "Wolfram`GitLink`GitAdd", "Wolfram`GitLink`GitAddRemote", 
+         "Wolfram`GitLink`GitAheadBehind", "Wolfram`GitLink`GitBranchQ", 
+         "Wolfram`GitLink`GitCheckoutReference", "Wolfram`GitLink`GitClone", 
+         "Wolfram`GitLink`GitClose", "Wolfram`GitLink`GitCommit", 
+         "Wolfram`GitLink`GitCommitQ", "Wolfram`GitLink`GitCreateBranch", 
+         "Wolfram`GitLink`GitCreateTag", "Wolfram`GitLink`GitDeleteBranch", 
+         "Wolfram`GitLink`GitDeleteRemote", "Wolfram`GitLink`GitDeleteTag", 
+         "Wolfram`GitLink`GitExpandTree", "Wolfram`GitLink`GitFetch", 
+         "Wolfram`GitLink`GitInit", "Wolfram`GitLink`GitMerge", 
+         "Wolfram`GitLink`GitMergeBase", "Wolfram`GitLink`GitMoveBranch", 
+         "Wolfram`GitLink`GitObject", "Wolfram`GitLink`GitOpen", 
+         "Wolfram`GitLink`GitProperties", "Wolfram`GitLink`GitPull", 
+         "Wolfram`GitLink`GitRange", "Wolfram`GitLink`GitReadBlob", 
+         "Wolfram`GitLink`GitRemoteQ", "Wolfram`GitLink`GitRepo", 
+         "Wolfram`GitLink`GitRepoQ", "Wolfram`GitLink`GitRepos", 
+         "Wolfram`GitLink`GitReset", "Wolfram`GitLink`GitSetUpstreamBranch", 
+         "Wolfram`GitLink`GitSHA", "Wolfram`GitLink`GitSignature", 
+         "Wolfram`GitLink`GitStatus", "Wolfram`GitLink`GitType", 
+         "Wolfram`GitLink`GitUpstreamBranch", "Wolfram`GitLink`GitWriteBlob", 
+         "Wolfram`GitLink`GitWriteTree", "Wolfram`GitLink`ToGitObject"}}, {
+      "LibraryLink", "Root" -> "LibraryResources"}}, "Location" -> 
+    "C:\\Users\\Peter\\AppData\\Roaming\\Mathematica\\Paclets\\Repository\\\
+Wolfram__GitLink-1.1.0"|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.8800626002526035`*^9},
+ CellLabel->"Out[74]=",ExpressionUUID->"875cc9a8-ba63-4e49-a3e4-1c35678700bc"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<Wolfram`GitLink`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8800625990806108`*^9, 3.880062603786606*^9}},
+ CellLabel->"In[75]:=",ExpressionUUID->"d71137a8-dfc9-4a49-9f48-5273b8fe8e63"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"repo", "=", 
+  RowBox[{
+  "GitClone", "[", 
+   "\"\<https://github.com/PeterCullenBurbery/linear-algebra-with-\
+applications-jefferey-holt.git\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.8800625852996025`*^9, 3.88006258658661*^9}, {
+  3.8800626504996033`*^9, 3.8800626777271366`*^9}},
+ CellLabel->"In[76]:=",ExpressionUUID->"78143cdb-09c3-47bb-a45b-f0c27a091993"],
+
+Cell[BoxData[
+ TemplateBox[{
+   RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+       RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+       RowBox[{
+        "\"GitDirectory\"", "\[Rule]", 
+         "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\""}], ",", 
+       RowBox[{
+        "\"WorkingDirectory\"", "\[Rule]", 
+         "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}]}], "\[RightAssociation]"}]},
+  "GitRepo",
+  DisplayFunction->(TooltipBox[
+    PanelBox[
+     GridBox[{{
+        GraphicsBox[{
+          EdgeForm[
+           GrayLevel[0.5]], 
+          GrayLevel[0.5], 
+          Thickness[0.1], 
+          LineBox[{{0, 0}, {5, 0}}], 
+          LineBox[{{0, 0}, {5, -3}}], 
+          GrayLevel[0.85], 
+          DiskBox[{0, 0}, 1], 
+          DiskBox[{5, 0}, 1], 
+          RGBColor[0, 1, 0], 
+          DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+        "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+     Baseline], 
+    "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \"C:\\\\Users\\\\Peter\
+\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\Peter\\\\OneDrive - \
+Marshall University\\\\Documents\\\\linear-algebra-with-applications-jefferey-\
+holt\\\\\"|>]"]& )]], "Output",
+ CellChangeTimes->{3.8800626793162313`*^9},
+ CellLabel->"Out[76]=",ExpressionUUID->"efeafba9-0090-41a8-8d07-27dfa670235e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", 
+  RowBox[{"All", ",", 
+   RowBox[{"repo", "[", "\"\<WorkingDirectory\>\"", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.88006268466816*^9, 3.880062691270157*^9}},
+ CellLabel->"In[77]:=",ExpressionUUID->"bd9d44d1-d1fa-4b4a-aa37-ffd37d359d68"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+1.1 Lines and Linear Equations.nb\"\>", 
+   ",", "\<\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\"\>", 
+   ",", "\<\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+GitLink.nb\"\>", 
+   ",", "\<\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+README.md\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.8800626915931587`*^9},
+ CellLabel->"Out[77]=",ExpressionUUID->"23ae4268-3870-4a8d-b883-ead59962b0bf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"commit", "=", 
+  RowBox[{"ToGitObject", "[", 
+   RowBox[{"repo", ",", "\"\<Main\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.88006269718316*^9, 3.8800627114261675`*^9}},
+ CellLabel->"In[80]:=",ExpressionUUID->"d070fae1-f330-46cd-93cd-c5df4f0a1c7f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   TooltipBox[
+    FrameBox[
+     TemplateBox[{
+       StyleBox["\"Commit\"", Italic, StripOnInput -> False], "\": \"", 
+       "\"500a0290\"", "\"\[Ellipsis]\""},
+      "RowDefault"],
+     Background->RGBColor[0.9, 1., 0.9],
+     BaseStyle->"Panel",
+     BaselinePosition->Baseline,
+     FrameMargins->{{5, 5}, {3, 3}},
+     FrameStyle->GrayLevel[0.8],
+     RoundingRadius->5,
+     StripOnInput->False],
+    TemplateBox[{
+     "\"Commit\"", "\" in \"", 
+      "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\"", "\": \"", 
+      StyleBox[
+      "\"500a029068ea7b15b3b3a8363feda766e7b17aa2\"", Bold, StripOnInput -> 
+       False]}, "RowDefault"],
+    TooltipStyle->"TextStyling"],
+   Annotation[#, 
+    Row[{"Commit", " in ", 
+      "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\", 
+      ": ", 
+      Style["500a029068ea7b15b3b3a8363feda766e7b17aa2", Bold]}], "Tooltip"]& ],
+  Wolfram`GitLink`GitObject["500a029068ea7b15b3b3a8363feda766e7b17aa2", 
+   Wolfram`GitLink`GitRepo[<|
+    "BareQ" -> False, "GitDirectory" -> 
+     "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\.git\\\
+", "WorkingDirectory" -> 
+     "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\"|>]]]]\
+, "Output",
+ CellChangeTimes->{{3.8800627036581583`*^9, 3.880062711746157*^9}},
+ CellLabel->"Out[80]=",ExpressionUUID->"7ca473ba-9ff6-4009-b67c-e2835edfe9ff"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitProperties", "[", "commit", "]"}]], "Input",
+ CellChangeTimes->{{3.88006271363716*^9, 3.880062716738192*^9}},
+ CellLabel->"In[81]:=",ExpressionUUID->"7503d751-14d5-4f0f-b475-af543c997d24"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"Type\"\>", "\[Rule]", "\<\"Commit\"\>"}], ",", 
+   RowBox[{"\<\"Parents\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     InterpretationBox[
+      TagBox[
+       TooltipBox[
+        FrameBox[
+         TemplateBox[{
+           StyleBox["\"Commit\"", Italic, StripOnInput -> False], "\": \"", 
+           "\"e260147b\"", "\"\[Ellipsis]\""},
+          "RowDefault"],
+         Background->RGBColor[0.9, 1., 0.9],
+         BaseStyle->"Panel",
+         BaselinePosition->Baseline,
+         FrameMargins->{{5, 5}, {3, 3}},
+         FrameStyle->GrayLevel[0.8],
+         RoundingRadius->5,
+         StripOnInput->False],
+        TemplateBox[{
+         "\"Commit\"", "\" in \"", 
+          "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\"", "\": \"", 
+          StyleBox[
+          "\"e260147b9d884d0c0aef36728d469b9e031eae73\"", Bold, StripOnInput -> 
+           False]}, "RowDefault"],
+        TooltipStyle->"TextStyling"],
+       Annotation[#, 
+        Row[{
+         "Commit", " in ", 
+          "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\", 
+          ": ", 
+          Style["e260147b9d884d0c0aef36728d469b9e031eae73", Bold]}], 
+        "Tooltip"]& ],
+      Wolfram`GitLink`GitObject["e260147b9d884d0c0aef36728d469b9e031eae73", 
+       Wolfram`GitLink`GitRepo[<|
+        "BareQ" -> False, "GitDirectory" -> 
+         "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\.git\\\
+", "WorkingDirectory" -> 
+         "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\"|>]]],
+      "}"}]}], ",", 
+   RowBox[{"\<\"Tree\"\>", "\[Rule]", 
+    InterpretationBox[
+     TagBox[
+      TooltipBox[
+       FrameBox[
+        TemplateBox[{
+          StyleBox["\"Tree\"", Italic, StripOnInput -> False], "\": \"", 
+          "\"eac157ec\"", "\"\[Ellipsis]\""},
+         "RowDefault"],
+        Background->RGBColor[0.95, 0.9, 0.95],
+        BaseStyle->"Panel",
+        BaselinePosition->Baseline,
+        FrameMargins->{{5, 5}, {3, 3}},
+        FrameStyle->GrayLevel[0.8],
+        RoundingRadius->5,
+        StripOnInput->False],
+       TemplateBox[{
+        "\"Tree\"", "\" in \"", 
+         "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\"", "\": \"", 
+         StyleBox[
+         "\"eac157ec75c30a357683193951d8f53001881cd0\"", Bold, StripOnInput -> 
+          False]}, "RowDefault"],
+       TooltipStyle->"TextStyling"],
+      Annotation[#, 
+       Row[{
+        "Tree", " in ", 
+         "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\", 
+         ": ", 
+         Style["eac157ec75c30a357683193951d8f53001881cd0", Bold]}], 
+       "Tooltip"]& ],
+     Wolfram`GitLink`GitObject["eac157ec75c30a357683193951d8f53001881cd0", 
+      Wolfram`GitLink`GitRepo[<|
+       "BareQ" -> False, "GitDirectory" -> 
+        "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\.git\\\
+", "WorkingDirectory" -> 
+        "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\"|>]]]}\
+], ",", 
+   RowBox[{"\<\"Author\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"Name\"\>", "\[Rule]", "\<\"PeterCullenBurbery\"\>"}], ",", 
+      RowBox[{"\<\"Email\"\>", 
+       "\[Rule]", "\<\"petercullenburbery@gmail.com\"\>"}], ",", 
+      RowBox[{"\<\"TimeStamp\"\>", "\[Rule]", 
+       TemplateBox[{
+         RowBox[{"\"Wed 14 Dec 2022 22:09:40\"", 
+           StyleBox[
+            RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+              StyleBox[
+               RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
+               False]}], FontColor -> GrayLevel[0.5]]}], 
+         RowBox[{"DateObject", "[", 
+           RowBox[{
+             RowBox[{"{", 
+               
+               RowBox[{
+                "2022", ",", "12", ",", "14", ",", "22", ",", "9", ",", 
+                 "40"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+             RowBox[{"-", "5.`"}]}], "]"}]},
+        "DateObject",
+        Editable->False]}]}], "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"Committer\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"Name\"\>", "\[Rule]", "\<\"PeterCullenBurbery\"\>"}], ",", 
+      RowBox[{"\<\"Email\"\>", 
+       "\[Rule]", "\<\"petercullenburbery@gmail.com\"\>"}], ",", 
+      RowBox[{"\<\"TimeStamp\"\>", "\[Rule]", 
+       TemplateBox[{
+         RowBox[{"\"Wed 14 Dec 2022 22:09:40\"", 
+           StyleBox[
+            RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+              StyleBox[
+               RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
+               False]}], FontColor -> GrayLevel[0.5]]}], 
+         RowBox[{"DateObject", "[", 
+           RowBox[{
+             RowBox[{"{", 
+               
+               RowBox[{
+                "2022", ",", "12", ",", "14", ",", "22", ",", "9", ",", 
+                 "40"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+             RowBox[{"-", "5.`"}]}], "]"}]},
+        "DateObject",
+        Editable->False]}]}], "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"SHA\"\>", 
+    "\[Rule]", "\<\"500a029068ea7b15b3b3a8363feda766e7b17aa2\"\>"}], ",", 
+   RowBox[{"\<\"Message\"\>", "\[Rule]", "\<\"Create GitLink.nb\\n\"\>"}], 
+   ",", 
+   RowBox[{"\<\"Repo\"\>", "\[Rule]", 
+    TemplateBox[{
+      RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+          RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+          
+          RowBox[{"\"GitDirectory\"", "\[Rule]", 
+            "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\""}], ",", 
+          
+          RowBox[{"\"WorkingDirectory\"", "\[Rule]", 
+            "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}]}], "\[RightAssociation]"}]},
+     "GitRepo",
+     DisplayFunction->(TooltipBox[
+       PanelBox[
+        GridBox[{{
+           GraphicsBox[{
+             EdgeForm[
+              GrayLevel[0.5]], 
+             GrayLevel[0.5], 
+             Thickness[0.1], 
+             LineBox[{{0, 0}, {5, 0}}], 
+             LineBox[{{0, 0}, {5, -3}}], 
+             GrayLevel[0.85], 
+             DiskBox[{0, 0}, 1], 
+             DiskBox[{5, 0}, 1], 
+             RGBColor[0, 1, 0], 
+             DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+           "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+        Baseline], 
+       "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \
+\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\Peter\\\\OneDrive - \
+Marshall University\\\\Documents\\\\linear-algebra-with-applications-jefferey-\
+holt\\\\\"|>]"]& )]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.8800627207131643`*^9},
+ CellLabel->"Out[81]=",ExpressionUUID->"599b4b4d-c1ea-4adc-abb7-3033829ee974"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"GitClose", "[", "repo", "]"}]], "Input",
+ CellChangeTimes->{{3.8800627329871607`*^9, 3.880062736127157*^9}},
+ CellLabel->"In[82]:=",ExpressionUUID->"4f79b4f8-e09e-4a15-b739-264d52867760"],
+
+Cell[CellGroupData[{
+
+Cell["Commit Changes that didn\[CloseCurlyQuote]t work", "Section",
+ CellChangeTimes->{{3.8800627673410177`*^9, 3.880062769732552*^9}, {
+  3.880063136241767*^9, 
+  3.8800631396894364`*^9}},ExpressionUUID->"4c065ba6-c3f8-48e3-a867-\
+88fbaf120149"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"repo1", "=", 
+  RowBox[{
+  "GitClone", "[", 
+   "\"\<https://github.com/PeterCullenBurbery/linear-algebra-with-\
+applications-jefferey-holt.git\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.8800627709051266`*^9, 3.8800627777549434`*^9}, {
+  3.8800628133423653`*^9, 3.8800628420072374`*^9}},
+ CellLabel->"In[86]:=",ExpressionUUID->"facb1e0f-1aa3-4e4f-bfd4-f782342c0e46"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GitClone", "repoexists", "\"-- Message text not found --\"", 2, 86, 12, 
+   26937845810707220151, "Local", "Wolfram`GitLink`GitClone"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.8800627783561277`*^9, {3.880062814561183*^9, 3.880062843758866*^9}},
+ CellLabel->
+  "During evaluation of \
+In[86]:=",ExpressionUUID->"d06562d5-d3db-45c3-85dd-f312bc345f32"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{
+  3.880062778409532*^9, {3.880062814630206*^9, 3.8800628438122673`*^9}},
+ CellLabel->"Out[86]=",ExpressionUUID->"634908cf-4e19-4a47-82cc-1e7a1fda6927"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitProperties", "[", "repo", "]"}]], "Input",
+ CellChangeTimes->{{3.88006282730838*^9, 3.880062834582656*^9}},
+ CellLabel->"In[85]:=",ExpressionUUID->"a2636d94-96a2-4505-b4cd-498b3e4ffa1f"],
+
+Cell[BoxData[
+ RowBox[{"GitProperties", "[", "$Failed", "]"}]], "Output",
+ CellChangeTimes->{3.8800628348992567`*^9},
+ CellLabel->"Out[85]=",ExpressionUUID->"249d9230-1d64-49c8-98bd-8a657c9a49b7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitClone", "[", 
+  "\"\<https://github.com/PeterCullenBurbery/linear-algebra-with-applications-\
+jefferey-holt.git\>\"", "]"}]], "Input",
+ CellLabel->"In[87]:=",ExpressionUUID->"5c24c142-3fbb-4425-8d80-a89defdb3662"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GitClone", "repoexists", "\"-- Message text not found --\"", 2, 87, 13, 
+   26937845810707220151, "Local", "Wolfram`GitLink`GitClone"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8800628563070393`*^9},
+ CellLabel->
+  "During evaluation of \
+In[87]:=",ExpressionUUID->"8744d74c-2627-4893-b23c-8cd9fffd0f00"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.880062856391709*^9},
+ CellLabel->"Out[87]=",ExpressionUUID->"bfb1c01a-ce3d-4a7f-9ecb-d612003d878c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitOpen", "[", 
+  "\"\<https://github.com/PeterCullenBurbery/linear-algebra-with-applications-\
+jefferey-holt.git\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.880062859266575*^9, 3.880062864027544*^9}},
+ CellLabel->"In[88]:=",ExpressionUUID->"edfba56e-ce53-4e32-83b9-321caffee430"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "AbsoluteFileName", "fdnfnd", 
+   "\"Directory or file \
+\\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"https://github.com/PeterCullenBurbery/linear-\
+algebra-with-applications-jefferey-holt.git\\\\\\\"\\\"}]\\)\\\" not \
+found.\"", 2, 88, 14, 26937845810707220151, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.880062864930152*^9},
+ CellLabel->
+  "During evaluation of \
+In[88]:=",ExpressionUUID->"a4ea9294-c797-488d-ba3f-fd1b16227e5e"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.880062864999179*^9},
+ CellLabel->"Out[88]=",ExpressionUUID->"7d6e2f39-42d4-4d0f-99fd-d55c0d8351be"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FileNameSetter", "[", "\"\<Directory\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8800628938190107`*^9, 3.8800629003322234`*^9}},
+ CellLabel->"In[89]:=",ExpressionUUID->"e06eb4d5-a78e-465f-a441-a9896e4859d7"],
+
+Cell[BoxData[
+ DynamicModuleBox[{Typeset`var$$ = "Directory"}, 
+  TemplateBox[{
+    Dynamic[Typeset`var$$], "Open", All},
+   "FileNameSetterBoxes"],
+  DynamicModuleValues:>{}]], "Output",
+ CellChangeTimes->{3.880062900655254*^9},
+ CellLabel->"Out[89]=",ExpressionUUID->"becc4214-b247-4dca-8746-8c14b23f2188"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"FileNameSetter", "[", 
+    RowBox[{
+     RowBox[{"Dynamic", "[", "f", "]"}], ",", "\"\<Directory\>\""}], "]"}], 
+   ",", 
+   RowBox[{"Dynamic", "[", "f", "]"}]}], "}"}]], "Input",
+ CellLabel->"In[90]:=",ExpressionUUID->"c10e6e55-344d-4931-a578-715467f7f4d0"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{
+     Dynamic[$CellContext`f], "Directory", All},
+    "FileNameSetterBoxes"], ",", 
+   DynamicBox[ToBoxes[$CellContext`f, StandardForm],
+    ImageSizeCache->{403.8730354309082, {41.31689453125, 11.958984375}}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.8800629239246817`*^9},
+ CellLabel->"Out[90]=",ExpressionUUID->"f090b2af-7492-43c6-bdf1-537f847a16eb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"repo", "=", 
+  RowBox[{"GitOpen", "[", 
+   DynamicBox[ToBoxes[$CellContext`f, StandardForm],
+    ImageSizeCache->{418.16795692443844`, {41.31689453125, 11.958984375}}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.8800629349225407`*^9, 3.8800629392190847`*^9}},
+ CellLabel->"In[91]:=",ExpressionUUID->"daf89106-39f6-41ce-ac4e-713cb9b55ad2"],
+
+Cell[BoxData[
+ RowBox[{"GitOpen", "[", 
+  DynamicBox[ToBoxes[$CellContext`f, StandardForm],
+   ImageSizeCache->{403.8730354309082, {41.31689453125, 11.958984375}}], 
+  "]"}]], "Output",
+ CellChangeTimes->{3.8800629409018583`*^9},
+ CellLabel->"Out[91]=",ExpressionUUID->"17b5f0de-09b2-45aa-9f3c-5756d89ccc75"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Put", "[", 
+  RowBox[{"\"\<Hello world\>\"", ",", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"repo", "[", "\"\<WorkingDirecotry\>\"", "]"}], ",", 
+      "\"\<Hello.wl\>\""}], "}"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.880062948639798*^9, 3.8800629648255873`*^9}},
+ CellLabel->"In[92]:=",ExpressionUUID->"48572b76-68dc-4d6b-8eb1-cf9efae32271"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Put", "stream", 
+   "\"\\!\\(\\*RowBox[{\\\"FileNameJoin\\\", \\\"[\\\", RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{RowBox[{\\\"GitOpen\\\", \\\"[\\\", DynamicBox[ToBoxes[f, \
+StandardForm], Rule[ImageSizeCache, List[418.16795692443844`, \
+List[41.31689453125`, 11.958984375`]]]], \\\"]\\\"}], \\\"[\\\", \
+\\\"\\\\\\\"WorkingDirecotry\\\\\\\"\\\", \\\"]\\\"}], \\\",\\\", \
+\\\"\\\\\\\"Hello.wl\\\\\\\"\\\"}], \\\"}\\\"}], \\\"]\\\"}]\\) is not a \
+string, SocketObject, InputStream[ ], or OutputStream[ ].\"", 2, 92, 15, 
+   26937845810707220151, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.880062965126501*^9},
+ CellLabel->
+  "During evaluation of \
+In[92]:=",ExpressionUUID->"45887c65-f941-48d9-b755-442b639a42ca"],
+
+Cell[BoxData[
+ RowBox[{"\<\"Hello world\"\>", ">>", 
+  InterpretationBox[
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"GitOpen", "[", 
+        DynamicBox[ToBoxes[$CellContext`f, StandardForm],
+         ImageSizeCache->{403.8730354309082, {41.31689453125, 11.958984375}}],
+         "]"}], "[", "\<\"WorkingDirecotry\"\>", "]"}], 
+      ",", "\<\"Hello.wl\"\>"}], "}"}], "]"}],
+   FileNameJoin[{
+     Wolfram`GitLink`GitOpen[
+      Dynamic[$CellContext`f, 
+       ImageSizeCache -> {
+        418.16795692443844`, {41.31689453125, 11.958984375}}]][
+     "WorkingDirecotry"], "Hello.wl"}],
+   Editable->False]}]], "Output",
+ CellChangeTimes->{3.880062965226759*^9},
+ CellLabel->"Out[92]=",ExpressionUUID->"06de82b1-6f4b-412d-bf01-e0a4b79f3c15"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"repo", "=", 
+  RowBox[{
+   InterpretationBox[
+    FrameBox[
+     TagBox[
+      TooltipBox[
+       PaneBox[GridBox[{
+          {
+           GraphicsBox[
+            {Thickness[0.0025], 
+             {FaceForm[{RGBColor[
+              0.9607843137254902, 0.5058823529411764, 0.19607843137254902`], 
+              Opacity[1.]}], 
+              FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0,
+                 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}}, {{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1,
+                 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {
+                1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{205., 
+                22.863691329956055`}, {205., 212.31669425964355`}, {
+                246.01799774169922`, 235.99870109558105`}, {369.0710144042969,
+                 307.0436840057373}, {369.0710144042969, 
+                117.59068870544434`}, {205., 22.863691329956055`}}, {{
+                30.928985595703125`, 307.0436840057373}, {153.98200225830078`,
+                 235.99870109558105`}, {195., 212.31669425964355`}, {195., 
+                22.863691329956055`}, {30.928985595703125`, 
+                117.59068870544434`}, {30.928985595703125`, 
+                307.0436840057373}}, {{200., 410.42970085144043`}, {
+                364.0710144042969, 315.7036876678467}, {241.01799774169922`, 
+                244.65868949890137`}, {200., 220.97669792175293`}, {
+                158.98200225830078`, 244.65868949890137`}, {
+                35.928985595703125`, 315.7036876678467}, {200., 
+                410.42970085144043`}}, CompressedData["
+1:eJxTTMoPSmViYGCQAWIQDQQPlDrLHYA0XxdDiQNYJCATwveoAtG/6uTA/HWX
+w8B8tsaHGch8BoYNGcjqGS7lmqOYd/qhKYj2c/hUDJF/awKiz129jsL3c9qN
+wo/gXBuDzK/YbRWDbF6F4MVoZPtmvJoejeyehpD9yiA6e88JMD+h/JYS2J6k
+J2C+gleGEkQ9QyYyf9NcaWR+w1Rn80xk/bDwgZkPCz+Y/QGPF5Yju++B0sZy
+ZPfD+DD/wfgw/8P4sPCBmQcLP5T4AgBuZHHc
+                "]}]}, 
+             {FaceForm[{RGBColor[
+              0.5529411764705883, 0.6745098039215687, 0.8117647058823529], 
+              Opacity[1.]}], 
+              FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+               0}}}, {{{44.92900085449219, 282.59088134765625`}, {
+               181.00001525878906`, 204.0298843383789}, {181.00001525878906`, 
+               46.90887451171875}, {44.92900085449219, 125.46986389160156`}, {
+               44.92900085449219, 282.59088134765625`}}}]}, 
+             {FaceForm[{RGBColor[
+              0.6627450980392157, 0.803921568627451, 0.5686274509803921], 
+              Opacity[1.]}], 
+              FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+               0}}}, {{{355.0710144042969, 282.59088134765625`}, {
+               355.0710144042969, 125.46986389160156`}, {219., 
+               46.90887451171875}, {219., 204.0298843383789}, {
+               355.0710144042969, 282.59088134765625`}}}]}, 
+             {FaceForm[{RGBColor[
+              0.6901960784313725, 0.5882352941176471, 0.8117647058823529], 
+              Opacity[1.]}], 
+              FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+               0}}}, {{{200., 394.0606994628906}, {336.0710144042969, 
+               315.4997024536133}, {200., 236.93968200683594`}, {
+               63.928985595703125`, 315.4997024536133}, {200., 
+               394.0606994628906}}}]}},
+            BaselinePosition->Scaled[0.15],
+            ImageSize->10], 
+           StyleBox[
+            RowBox[{"GitOpen", " "}],
+            ShowAutoStyles->False,
+            ShowStringCharacters->False,
+            FontSize->0.9 Inherited,
+            FontColor->GrayLevel[0.1]]}
+         },
+         GridBoxSpacings->{"Columns" -> {{0.25}}}],
+        Alignment->{Left, Baseline},
+        BaseStyle->{LineSpacing -> {0, 0}, LineBreakWithin -> False},
+        BaselinePosition->Baseline,
+        FrameMargins->{{3, 0}, {0, 0}}],
+       RowBox[{"PacletSymbol", "[", 
+         RowBox[{"\"Wolfram/GitLink\"", ",", "\"GitOpen\""}], "]"}],
+       TooltipStyle->{ShowAutoStyles -> True, ShowStringCharacters -> True}],
+      Annotation[#, 
+       Style[
+        Defer[
+         PacletSymbol["Wolfram/GitLink", "GitOpen"]], ShowStringCharacters -> 
+        True], "Tooltip"]& ],
+     Background->RGBColor[0.968, 0.976, 0.984],
+     BaselinePosition->Baseline,
+     DefaultBaseStyle->{},
+     FrameMargins->{{0, 0}, {1, 1}},
+     FrameStyle->RGBColor[0.831, 0.847, 0.85],
+     RoundingRadius->4],
+    PacletSymbol["Wolfram/GitLink", "GitOpen"],
+    BoxID -> "PacletSymbolBox",
+    SelectWithContents->True,
+    Selectable->False], "[", "\"\<PacletCICD-Examples-Sample\>\"", 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.880062977929711*^9, 3.880062977929711*^9}},
+ CellLabel->"In[93]:=",ExpressionUUID->"1fd37232-2153-4646-a20b-2dabc74eea40"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "AbsoluteFileName", "fdnfnd", 
+   "\"Directory or file \
+\\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"PacletCICD-Examples-Sample\\\\\\\"\\\"}]\\)\\\
+\" not found.\"", 2, 93, 16, 26937845810707220151, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8800629788869677`*^9},
+ CellLabel->
+  "During evaluation of \
+In[93]:=",ExpressionUUID->"329444de-6b78-4b06-9d7a-970c475c2b67"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.8800629789796305`*^9},
+ CellLabel->"Out[93]=",ExpressionUUID->"59688be3-d6e1-40ba-83b9-01f310ece95b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"File", "[", 
+  DynamicBox[ToBoxes[$CellContext`f, StandardForm],
+   ImageSizeCache->{418.16795692443844`, {41.31689453125, 11.958984375}}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8800630036856546`*^9, 
+  3.8800630392419834`*^9}},ExpressionUUID->"a493ec28-7bb0-4533-9158-\
+4de3048e10ea"],
+
+Cell[BoxData[
+ RowBox[{"File", "[", 
+  DynamicBox[ToBoxes[$CellContext`f, StandardForm],
+   ImageSizeCache->{403.8730354309082, {41.31689453125, 11.958984375}}], 
+  "]"}]], "Output",
+ CellChangeTimes->{3.880063033657231*^9},
+ CellLabel->"Out[94]=",ExpressionUUID->"c1dc78c9-3cd9-45fa-bb34-afc7d2ce80c1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"File", "[", 
+  "\"\<C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\>\"\
+", "]"}]], "Input",
+ CellChangeTimes->{{3.8800630420898867`*^9, 3.8800630578529954`*^9}},
+ CellLabel->"In[95]:=",ExpressionUUID->"6c793dcd-8ebb-487f-a3ff-f2624626bab9"],
+
+Cell[BoxData[
+ RowBox[{"File", "[", 
+  TemplateBox[{
+   "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\""},
+   "FileArgument"], "]"}]], "Output",
+ CellChangeTimes->{3.880063059018611*^9},
+ CellLabel->"Out[95]=",ExpressionUUID->"48844376-7a3b-4cc3-aa2c-8089f1fdf567"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"repo", "=", 
+  RowBox[{"GitOpen", "[", 
+   RowBox[{
+   "File", "[", 
+    "\"\<C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\>\"\
+", "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8800630631138477`*^9, 3.8800630663610373`*^9}},
+ CellLabel->"In[96]:=",ExpressionUUID->"6643d006-35d5-43d6-9502-b06d52179f3b"],
+
+Cell[BoxData[
+ RowBox[{"GitOpen", "[", 
+  RowBox[{"File", "[", 
+   TemplateBox[{
+    "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\""},
+    "FileArgument"], "]"}], "]"}]], "Output",
+ CellChangeTimes->{3.880063069169338*^9},
+ CellLabel->"Out[96]=",ExpressionUUID->"ecf77269-a91b-46b9-a7c0-0578b06adecd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitProperties", "[", "repo", "]"}]], "Input",
+ CellChangeTimes->{{3.8800630735292835`*^9, 3.8800630760519667`*^9}},
+ CellLabel->"In[97]:=",ExpressionUUID->"b4645702-6596-4be8-ad53-8eafddb41b1f"],
+
+Cell[BoxData[
+ RowBox[{"GitProperties", "[", 
+  RowBox[{"GitOpen", "[", 
+   RowBox[{"File", "[", 
+    TemplateBox[{
+     "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall University\\\\Documents\\\
+\\linear-algebra-with-applications-jefferey-holt\""},
+     "FileArgument"], "]"}], "]"}], "]"}]], "Output",
+ CellChangeTimes->{3.880063080330218*^9},
+ CellLabel->"Out[97]=",ExpressionUUID->"fa796a4c-51ab-4894-ae06-863eb33b5bed"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Commit changes that did work", "Section",
+ CellChangeTimes->{{3.880063144749776*^9, 
+  3.880063148892824*^9}},ExpressionUUID->"c1cc5cf7-edf3-4388-b065-\
+981cc18bf4c5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"repo", "=", 
+  RowBox[{
+  "GitOpen", "[", 
+   "\"\<C:\\\\Users\\\\Peter\\\\OneDrive - Marshall University\\\\Documents\\\
+\\linear-algebra-with-applications-jefferey-holt\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.8800630916768208`*^9, 3.880063092447898*^9}},
+ CellLabel->"In[98]:=",ExpressionUUID->"74fae384-dffe-4d85-837f-17203093ccf6"],
+
+Cell[BoxData[
+ TemplateBox[{
+   RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+       RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+       RowBox[{
+        "\"GitDirectory\"", "\[Rule]", 
+         "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\""}], ",", 
+       RowBox[{
+        "\"WorkingDirectory\"", "\[Rule]", 
+         "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}]}], "\[RightAssociation]"}]},
+  "GitRepo",
+  DisplayFunction->(TooltipBox[
+    PanelBox[
+     GridBox[{{
+        GraphicsBox[{
+          EdgeForm[
+           GrayLevel[0.5]], 
+          GrayLevel[0.5], 
+          Thickness[0.1], 
+          LineBox[{{0, 0}, {5, 0}}], 
+          LineBox[{{0, 0}, {5, -3}}], 
+          GrayLevel[0.85], 
+          DiskBox[{0, 0}, 1], 
+          DiskBox[{5, 0}, 1], 
+          RGBColor[0, 1, 0], 
+          DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+        "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+     Baseline], 
+    "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \"C:\\\\Users\\\\Peter\
+\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\Peter\\\\OneDrive - \
+Marshall University\\\\Documents\\\\linear-algebra-with-applications-jefferey-\
+holt\\\\\"|>]"]& )]], "Output",
+ CellChangeTimes->{3.8800630932124496`*^9},
+ CellLabel->"Out[98]=",ExpressionUUID->"fa75dad3-5120-408f-bcb8-a9ddbf70a502"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Put", "[", 
+  RowBox[{"\"\<Hello world\>\"", ",", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"repo", "[", "\"\<WorkingDirectory\>\"", "]"}], ",", 
+      "\"\<hellow.wl\>\""}], "}"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8800630979627714`*^9, 3.8800631145416117`*^9}},
+ CellLabel->"In[99]:=",ExpressionUUID->"5883418e-6380-4d72-a861-1f1b8134ff06"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitStatus", "[", "repo", "]"}]], "Input",
+ CellChangeTimes->{{3.8800631176038313`*^9, 3.880063119925703*^9}},
+ CellLabel->
+  "In[100]:=",ExpressionUUID->"8494c5a7-faf2-4363-8e4e-73d88de3dca3"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"New\"\>", "\[Rule]", 
+    RowBox[{"{", "\<\"hellow.wl\"\>", "}"}]}], ",", 
+   RowBox[{"\<\"Modified\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"Deleted\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"TypeChange\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"IndexNew\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"IndexModified\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"IndexDeleted\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"IndexTypeChange\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.880063123551*^9},
+ CellLabel->
+  "Out[100]=",ExpressionUUID->"8b41b76f-dabb-4693-8e8c-a3d83ea3aa32"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitAdd", "[", 
+  RowBox[{"repo", ",", "All"}], "]"}]], "Input",
+ CellChangeTimes->{{3.88006316793079*^9, 3.8800631707247972`*^9}},
+ CellLabel->
+  "In[102]:=",ExpressionUUID->"30730709-b7da-460e-aee3-9b3cc67138a7"],
+
+Cell[BoxData[
+ RowBox[{"{", "\<\"hellow.wl\"\>", "}"}]], "Output",
+ CellChangeTimes->{3.8800631748277903`*^9},
+ CellLabel->
+  "Out[102]=",ExpressionUUID->"45258d2d-a432-46e7-9c22-f04386338e18"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitStatus", "[", "repo", "]"}]], "Input",
+ CellChangeTimes->{{3.88006317186479*^9, 3.8800631762887907`*^9}},
+ CellLabel->
+  "In[103]:=",ExpressionUUID->"5e4ffd5d-1cf7-452f-a5c5-a2801566e350"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"New\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"Modified\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"Deleted\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"TypeChange\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"IndexNew\"\>", "\[Rule]", 
+    RowBox[{"{", "\<\"hellow.wl\"\>", "}"}]}], ",", 
+   RowBox[{"\<\"IndexModified\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"IndexDeleted\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"IndexTypeChange\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.880063181093791*^9},
+ CellLabel->
+  "Out[103]=",ExpressionUUID->"8b7b63b7-ad95-4cef-820d-a3a7d6308486"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitCommit", "[", 
+  RowBox[{"repo", ",", "\"\<Test commit, please ignore\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.880063180459793*^9, 3.8800632021147904`*^9}},
+ CellLabel->
+  "In[104]:=",ExpressionUUID->"a5eb15fc-18a2-4793-b24d-39c992ff6edb"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   TooltipBox[
+    FrameBox[
+     TemplateBox[{
+       StyleBox["\"Commit\"", Italic, StripOnInput -> False], "\": \"", 
+       "\"666f5568\"", "\"\[Ellipsis]\""},
+      "RowDefault"],
+     Background->RGBColor[0.9, 1., 0.9],
+     BaseStyle->"Panel",
+     BaselinePosition->Baseline,
+     FrameMargins->{{5, 5}, {3, 3}},
+     FrameStyle->GrayLevel[0.8],
+     RoundingRadius->5,
+     StripOnInput->False],
+    TemplateBox[{
+     "\"Commit\"", "\" in \"", 
+      "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\"", "\": \"", 
+      StyleBox[
+      "\"666f55686267209c816bec3d0bd17adee63f714d\"", Bold, StripOnInput -> 
+       False]}, "RowDefault"],
+    TooltipStyle->"TextStyling"],
+   Annotation[#, 
+    Row[{"Commit", " in ", 
+      "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\", 
+      ": ", 
+      Style["666f55686267209c816bec3d0bd17adee63f714d", Bold]}], "Tooltip"]& ],
+  Wolfram`GitLink`GitObject["666f55686267209c816bec3d0bd17adee63f714d", 
+   Wolfram`GitLink`GitRepo[<|
+    "BareQ" -> False, "GitDirectory" -> 
+     "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\.git\\\
+", "WorkingDirectory" -> 
+     "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\"|>]]]]\
+, "Output",
+ CellChangeTimes->{3.880063202452791*^9},
+ CellLabel->
+  "Out[104]=",ExpressionUUID->"8cc6ea44-d489-43b9-b179-64c3329b38dd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitProperties", "[", "%", "]"}]], "Input",
+ CellChangeTimes->{{3.8800632060527906`*^9, 3.8800632081227922`*^9}},
+ CellLabel->
+  "In[105]:=",ExpressionUUID->"855f952e-c177-496e-b5cc-8266abab01c2"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"Type\"\>", "\[Rule]", "\<\"Commit\"\>"}], ",", 
+   RowBox[{"\<\"Parents\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     InterpretationBox[
+      TagBox[
+       TooltipBox[
+        FrameBox[
+         TemplateBox[{
+           StyleBox["\"Commit\"", Italic, StripOnInput -> False], "\": \"", 
+           "\"500a0290\"", "\"\[Ellipsis]\""},
+          "RowDefault"],
+         Background->RGBColor[0.9, 1., 0.9],
+         BaseStyle->"Panel",
+         BaselinePosition->Baseline,
+         FrameMargins->{{5, 5}, {3, 3}},
+         FrameStyle->GrayLevel[0.8],
+         RoundingRadius->5,
+         StripOnInput->False],
+        TemplateBox[{
+         "\"Commit\"", "\" in \"", 
+          "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\"", "\": \"", 
+          StyleBox[
+          "\"500a029068ea7b15b3b3a8363feda766e7b17aa2\"", Bold, StripOnInput -> 
+           False]}, "RowDefault"],
+        TooltipStyle->"TextStyling"],
+       Annotation[#, 
+        Row[{
+         "Commit", " in ", 
+          "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\", 
+          ": ", 
+          Style["500a029068ea7b15b3b3a8363feda766e7b17aa2", Bold]}], 
+        "Tooltip"]& ],
+      Wolfram`GitLink`GitObject["500a029068ea7b15b3b3a8363feda766e7b17aa2", 
+       Wolfram`GitLink`GitRepo[<|
+        "BareQ" -> False, "GitDirectory" -> 
+         "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\.git\\\
+", "WorkingDirectory" -> 
+         "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\"|>]]],
+      "}"}]}], ",", 
+   RowBox[{"\<\"Tree\"\>", "\[Rule]", 
+    InterpretationBox[
+     TagBox[
+      TooltipBox[
+       FrameBox[
+        TemplateBox[{
+          StyleBox["\"Tree\"", Italic, StripOnInput -> False], "\": \"", 
+          "\"fd159992\"", "\"\[Ellipsis]\""},
+         "RowDefault"],
+        Background->RGBColor[0.95, 0.9, 0.95],
+        BaseStyle->"Panel",
+        BaselinePosition->Baseline,
+        FrameMargins->{{5, 5}, {3, 3}},
+        FrameStyle->GrayLevel[0.8],
+        RoundingRadius->5,
+        StripOnInput->False],
+       TemplateBox[{
+        "\"Tree\"", "\" in \"", 
+         "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\"", "\": \"", 
+         StyleBox[
+         "\"fd1599922cd81fab2316546059b828411976acc5\"", Bold, StripOnInput -> 
+          False]}, "RowDefault"],
+       TooltipStyle->"TextStyling"],
+      Annotation[#, 
+       Row[{
+        "Tree", " in ", 
+         "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\", 
+         ": ", 
+         Style["fd1599922cd81fab2316546059b828411976acc5", Bold]}], 
+       "Tooltip"]& ],
+     Wolfram`GitLink`GitObject["fd1599922cd81fab2316546059b828411976acc5", 
+      Wolfram`GitLink`GitRepo[<|
+       "BareQ" -> False, "GitDirectory" -> 
+        "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\.git\\\
+", "WorkingDirectory" -> 
+        "C:\\Users\\Peter\\OneDrive - Marshall \
+University\\Documents\\linear-algebra-with-applications-jefferey-holt\\"|>]]]}\
+], ",", 
+   RowBox[{"\<\"Author\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"Name\"\>", "\[Rule]", "\<\"PeterCullenBurbery\"\>"}], ",", 
+      RowBox[{"\<\"Email\"\>", 
+       "\[Rule]", "\<\"petercullenburbery@gmail.com\"\>"}], ",", 
+      RowBox[{"\<\"TimeStamp\"\>", "\[Rule]", 
+       TemplateBox[{
+         RowBox[{"\"Wed 14 Dec 2022 22:20:02\"", 
+           StyleBox[
+            RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+              StyleBox[
+               RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
+               False]}], FontColor -> GrayLevel[0.5]]}], 
+         RowBox[{"DateObject", "[", 
+           RowBox[{
+             RowBox[{"{", 
+               
+               RowBox[{
+                "2022", ",", "12", ",", "14", ",", "22", ",", "20", ",", 
+                 "2"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+             RowBox[{"-", "5.`"}]}], "]"}]},
+        "DateObject",
+        Editable->False]}]}], "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"Committer\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"Name\"\>", "\[Rule]", "\<\"PeterCullenBurbery\"\>"}], ",", 
+      RowBox[{"\<\"Email\"\>", 
+       "\[Rule]", "\<\"petercullenburbery@gmail.com\"\>"}], ",", 
+      RowBox[{"\<\"TimeStamp\"\>", "\[Rule]", 
+       TemplateBox[{
+         RowBox[{"\"Wed 14 Dec 2022 22:20:02\"", 
+           StyleBox[
+            RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+              StyleBox[
+               RowBox[{"-", "5"}], NumberMarks -> False, StripOnInput -> 
+               False]}], FontColor -> GrayLevel[0.5]]}], 
+         RowBox[{"DateObject", "[", 
+           RowBox[{
+             RowBox[{"{", 
+               
+               RowBox[{
+                "2022", ",", "12", ",", "14", ",", "22", ",", "20", ",", 
+                 "2"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+             RowBox[{"-", "5.`"}]}], "]"}]},
+        "DateObject",
+        Editable->False]}]}], "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"SHA\"\>", 
+    "\[Rule]", "\<\"666f55686267209c816bec3d0bd17adee63f714d\"\>"}], ",", 
+   RowBox[{"\<\"Message\"\>", 
+    "\[Rule]", "\<\"Test commit, please ignore\"\>"}], ",", 
+   RowBox[{"\<\"Repo\"\>", "\[Rule]", 
+    TemplateBox[{
+      RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+          RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+          
+          RowBox[{"\"GitDirectory\"", "\[Rule]", 
+            "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\""}], ",", 
+          
+          RowBox[{"\"WorkingDirectory\"", "\[Rule]", 
+            "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}]}], "\[RightAssociation]"}]},
+     "GitRepo",
+     DisplayFunction->(TooltipBox[
+       PanelBox[
+        GridBox[{{
+           GraphicsBox[{
+             EdgeForm[
+              GrayLevel[0.5]], 
+             GrayLevel[0.5], 
+             Thickness[0.1], 
+             LineBox[{{0, 0}, {5, 0}}], 
+             LineBox[{{0, 0}, {5, -3}}], 
+             GrayLevel[0.85], 
+             DiskBox[{0, 0}, 1], 
+             DiskBox[{5, 0}, 1], 
+             RGBColor[0, 1, 0], 
+             DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+           "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+        Baseline], 
+       "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \
+\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\Peter\\\\OneDrive - \
+Marshall University\\\\Documents\\\\linear-algebra-with-applications-jefferey-\
+holt\\\\\"|>]"]& )]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.8800632116467905`*^9},
+ CellLabel->
+  "Out[105]=",ExpressionUUID->"924d2038-a7e9-47d6-9824-38193502f67f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitPush", "[", "repo", "]"}]], "Input",
+ CellChangeTimes->{{3.8800632149917936`*^9, 3.8800632194787908`*^9}},
+ CellLabel->
+  "In[106]:=",ExpressionUUID->"a8459ac2-2d2f-4577-81df-a38126c02165"],
+
+Cell[BoxData[
+ RowBox[{"GitPush", "[", 
+  TemplateBox[{
+    RowBox[{"\[LeftAssociation]", 
+      RowBox[{
+        RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+        RowBox[{
+         "\"GitDirectory\"", "\[Rule]", 
+          "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\""}], ",", 
+        RowBox[{
+         "\"WorkingDirectory\"", "\[Rule]", 
+          "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}]}], "\[RightAssociation]"}]},
+   "GitRepo",
+   DisplayFunction->(TooltipBox[
+     PanelBox[
+      GridBox[{{
+         GraphicsBox[{
+           EdgeForm[
+            GrayLevel[0.5]], 
+           GrayLevel[0.5], 
+           Thickness[0.1], 
+           LineBox[{{0, 0}, {5, 0}}], 
+           LineBox[{{0, 0}, {5, -3}}], 
+           GrayLevel[0.85], 
+           DiskBox[{0, 0}, 1], 
+           DiskBox[{5, 0}, 1], 
+           RGBColor[0, 1, 0], 
+           DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+         "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+      Baseline], 
+     "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \
+\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\Peter\\\\OneDrive - \
+Marshall University\\\\Documents\\\\linear-algebra-with-applications-jefferey-\
+holt\\\\\"|>]"]& )], "]"}]], "Output",
+ CellChangeTimes->{3.8800632225337934`*^9},
+ CellLabel->
+  "Out[106]=",ExpressionUUID->"6b688040-a5e6-48a5-aadc-66239aad3558"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitStatus", "[", "repo", "]"}]], "Input",
+ CellChangeTimes->{{3.88006322688179*^9, 3.880063240435791*^9}},
+ CellLabel->
+  "In[108]:=",ExpressionUUID->"06006670-ac26-4aef-ac02-755c7e1d78c2"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"New\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"Modified\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"Deleted\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"TypeChange\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"IndexNew\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"IndexModified\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"IndexDeleted\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"IndexTypeChange\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{{3.8800632331317964`*^9, 3.8800632407177906`*^9}},
+ CellLabel->
+  "Out[108]=",ExpressionUUID->"47759774-c19b-46b0-8c13-c00508e0120b"]
+}, Open  ]]
+}, Open  ]]
 },
 WindowSize->{574.8, 609.6},
 WindowMargins->{{Automatic, -4.7999999999999545`}, {Automatic, 0}},
@@ -36,9 +1715,125 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 235, 3, 28, "Input",ExpressionUUID->"82cbdd24-4f37-4d89-8a9c-e8a8f9d3e71c"],
+Cell[818, 27, 24294, 421, 64, "Output",ExpressionUUID->"875cc9a8-ba63-4e49-a3e4-1c35678700bc"]
+}, Open  ]],
+Cell[25127, 451, 228, 3, 28, "Input",ExpressionUUID->"d71137a8-dfc9-4a49-9f48-5273b8fe8e63"],
+Cell[CellGroupData[{
+Cell[25380, 458, 390, 8, 86, "Input",ExpressionUUID->"78143cdb-09c3-47bb-a45b-f0c27a091993"],
+Cell[25773, 468, 1749, 42, 49, "Output",ExpressionUUID->"efeafba9-0090-41a8-8d07-27dfa670235e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27559, 515, 286, 5, 28, "Input",ExpressionUUID->"bd9d44d1-d1fa-4b4a-aa37-ffd37d359d68"],
+Cell[27848, 522, 812, 15, 223, "Output",ExpressionUUID->"23ae4268-3870-4a8d-b883-ead59962b0bf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28697, 542, 276, 5, 28, "Input",ExpressionUUID->"d070fae1-f330-46cd-93cd-c5df4f0a1c7f"],
+Cell[28976, 549, 1647, 41, 40, "Output",ExpressionUUID->"7ca473ba-9ff6-4009-b67c-e2835edfe9ff"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30660, 595, 215, 3, 28, "Input",ExpressionUUID->"7503d751-14d5-4f0f-b475-af543c997d24"],
+Cell[30878, 600, 7578, 183, 281, "Output",ExpressionUUID->"599b4b4d-c1ea-4adc-abb7-3033829ee974"]
+}, Open  ]],
+Cell[38471, 786, 211, 3, 28, "Input",ExpressionUUID->"4f79b4f8-e09e-4a15-b739-264d52867760"],
+Cell[CellGroupData[{
+Cell[38707, 793, 246, 4, 67, "Section",ExpressionUUID->"4c065ba6-c3f8-48e3-a867-88fbaf120149"],
+Cell[CellGroupData[{
+Cell[38978, 801, 394, 8, 86, "Input",ExpressionUUID->"facb1e0f-1aa3-4e4f-bfd4-f782342c0e46"],
+Cell[39375, 811, 407, 9, 28, "Message",ExpressionUUID->"d06562d5-d3db-45c3-85dd-f312bc345f32"],
+Cell[39785, 822, 206, 3, 32, "Output",ExpressionUUID->"634908cf-4e19-4a47-82cc-1e7a1fda6927"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40028, 830, 213, 3, 28, "Input",ExpressionUUID->"a2636d94-96a2-4505-b4cd-498b3e4ffa1f"],
+Cell[40244, 835, 196, 3, 32, "Output",ExpressionUUID->"249d9230-1d64-49c8-98bd-8a657c9a49b7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40477, 843, 240, 4, 67, "Input",ExpressionUUID->"5c24c142-3fbb-4425-8d80-a89defdb3662"],
+Cell[40720, 849, 358, 8, 28, "Message",ExpressionUUID->"8744d74c-2627-4893-b23c-8cd9fffd0f00"],
+Cell[41081, 859, 155, 2, 32, "Output",ExpressionUUID->"bfb1c01a-ce3d-4a7f-9ecb-d612003d878c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41273, 866, 305, 5, 67, "Input",ExpressionUUID->"edfba56e-ce53-4e32-83b9-321caffee430"],
+Cell[41581, 873, 480, 11, 65, "Message",ExpressionUUID->"a4ea9294-c797-488d-ba3f-fd1b16227e5e"],
+Cell[42064, 886, 155, 2, 32, "Output",ExpressionUUID->"7d6e2f39-42d4-4d0f-99fd-d55c0d8351be"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42256, 893, 232, 3, 28, "Input",ExpressionUUID->"e06eb4d5-a78e-465f-a441-a9896e4859d7"],
+Cell[42491, 898, 308, 7, 41, "Output",ExpressionUUID->"becc4214-b247-4dca-8746-8c14b23f2188"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42836, 910, 310, 8, 28, "Input",ExpressionUUID->"c10e6e55-344d-4931-a578-715467f7f4d0"],
+Cell[43149, 920, 412, 10, 106, "Output",ExpressionUUID->"f090b2af-7492-43c6-bdf1-537f847a16eb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43598, 935, 364, 7, 120, "Input",ExpressionUUID->"daf89106-39f6-41ce-ac4e-713cb9b55ad2"],
+Cell[43965, 944, 308, 6, 106, "Output",ExpressionUUID->"17b5f0de-09b2-45aa-9f3c-5756d89ccc75"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44310, 955, 415, 9, 48, "Input",ExpressionUUID->"48572b76-68dc-4d6b-8eb1-cf9efae32271"],
+Cell[44728, 966, 772, 15, 65, "Message",ExpressionUUID->"45887c65-f941-48d9-b755-442b639a42ca"],
+Cell[45503, 983, 791, 20, 139, "Output",ExpressionUUID->"06de82b1-6f4b-412d-bf01-e0a4b79f3c15"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46331, 1008, 4918, 98, 35, "Input",ExpressionUUID->"1fd37232-2153-4646-a20b-2dabc74eea40"],
+Cell[51252, 1108, 418, 10, 28, "Message",ExpressionUUID->"329444de-6b78-4b06-9d7a-970c475c2b67"],
+Cell[51673, 1120, 157, 2, 32, "Output",ExpressionUUID->"59688be3-d6e1-40ba-83b9-01f310ece95b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51867, 1127, 313, 7, 101, "Input",ExpressionUUID->"a493ec28-7bb0-4533-9158-4de3048e10ea"],
+Cell[52183, 1136, 303, 6, 74, "Output",ExpressionUUID->"c1dc78c9-3cd9-45fa-bb34-afc7d2ce80c1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[52523, 1147, 337, 6, 86, "Input",ExpressionUUID->"6c793dcd-8ebb-487f-a3ff-f2624626bab9"],
+Cell[52863, 1155, 342, 7, 54, "Output",ExpressionUUID->"48844376-7a3b-4cc3-aa2c-8089f1fdf567"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[53242, 1167, 404, 9, 124, "Input",ExpressionUUID->"6643d006-35d5-43d6-9502-b06d52179f3b"],
+Cell[53649, 1178, 379, 8, 83, "Output",ExpressionUUID->"ecf77269-a91b-46b9-a7c0-0578b06adecd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[54065, 1191, 218, 3, 28, "Input",ExpressionUUID->"b4645702-6596-4be8-ad53-8eafddb41b1f"],
+Cell[54286, 1196, 423, 9, 83, "Output",ExpressionUUID->"fa796a4c-51ab-4894-ae06-863eb33b5bed"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[54758, 1211, 173, 3, 53, "Section",ExpressionUUID->"c1cc5cf7-edf3-4388-b065-981cc18bf4c5"],
+Cell[CellGroupData[{
+Cell[54956, 1218, 366, 7, 105, "Input",ExpressionUUID->"74fae384-dffe-4d85-837f-17203093ccf6"],
+Cell[55325, 1227, 1749, 42, 49, "Output",ExpressionUUID->"fa75dad3-5120-408f-bcb8-a9ddbf70a502"]
+}, Open  ]],
+Cell[57089, 1272, 418, 9, 48, "Input",ExpressionUUID->"5883418e-6380-4d72-a861-1f1b8134ff06"],
+Cell[CellGroupData[{
+Cell[57532, 1285, 216, 4, 28, "Input",ExpressionUUID->"8494c5a7-faf2-4363-8e4e-73d88de3dca3"],
+Cell[57751, 1291, 843, 21, 71, "Output",ExpressionUUID->"8b41b76f-dabb-4693-8e8c-a3d83ea3aa32"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[58631, 1317, 237, 5, 28, "Input",ExpressionUUID->"30730709-b7da-460e-aee3-9b3cc67138a7"],
+Cell[58871, 1324, 193, 4, 32, "Output",ExpressionUUID->"45258d2d-a432-46e7-9c22-f04386338e18"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[59101, 1333, 215, 4, 28, "Input",ExpressionUUID->"5e4ffd5d-1cf7-452f-a5c5-a2801566e350"],
+Cell[59319, 1339, 846, 21, 71, "Output",ExpressionUUID->"8b7b63b7-ad95-4cef-820d-a3a7d6308486"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[60202, 1365, 272, 5, 28, "Input",ExpressionUUID->"a5eb15fc-18a2-4793-b24d-39c992ff6edb"],
+Cell[60477, 1372, 1625, 42, 40, "Output",ExpressionUUID->"8cc6ea44-d489-43b9-b179-64c3329b38dd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[62139, 1419, 219, 4, 28, "Input",ExpressionUUID->"855f952e-c177-496e-b5cc-8266abab01c2"],
+Cell[62361, 1425, 7589, 184, 262, "Output",ExpressionUUID->"924d2038-a7e9-47d6-9824-38193502f67f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[69987, 1614, 216, 4, 28, "Input",ExpressionUUID->"a8459ac2-2d2f-4577-81df-a38126c02165"],
+Cell[70206, 1620, 1815, 44, 49, "Output",ExpressionUUID->"6b688040-a5e6-48a5-aadc-66239aad3558"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[72058, 1669, 213, 4, 28, "Input",ExpressionUUID->"06006670-ac26-4aef-ac02-755c7e1d78c2"],
+Cell[72274, 1675, 853, 21, 71, "Output",ExpressionUUID->"47759774-c19b-46b0-8c13-c00508e0120b"]
+}, Open  ]]
+}, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
