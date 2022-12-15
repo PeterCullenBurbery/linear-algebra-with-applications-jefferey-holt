@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     80289,       1831]
-NotebookOptionsPosition[     73155,       1700]
-NotebookOutlinePosition[     73574,       1716]
-CellTagsIndexPosition[     73531,       1713]
+NotebookDataLength[     98821,       2301]
+NotebookOptionsPosition[     88791,       2120]
+NotebookOutlinePosition[     89210,       2136]
+CellTagsIndexPosition[     89167,       2133]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1695,8 +1695,428 @@ Cell[BoxData[
  CellChangeTimes->{{3.8800632331317964`*^9, 3.8800632407177906`*^9}},
  CellLabel->
   "Out[108]=",ExpressionUUID->"47759774-c19b-46b0-8c13-c00508e0120b"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"GitClose", "[", "repo", "]"}]], "Input",
+ CellChangeTimes->{{3.880063314483627*^9, 3.8800633177083473`*^9}},
+ CellLabel->
+  "In[109]:=",ExpressionUUID->"abb90a3f-d3d1-4959-8727-41998a27412d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Making an actual change", "Section",
+ CellChangeTimes->{{3.8800633195825644`*^9, 
+  3.8800633227603283`*^9}},ExpressionUUID->"8fe8d4e6-16c5-430d-ac03-\
+861a07cef8b4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"repo", "=", 
+  RowBox[{
+  "GitOpen", "[", 
+   "\"\<C:\\\\Users\\\\Peter\\\\OneDrive - Marshall University\\\\Documents\\\
+\\linear-algebra-with-applications-jefferey-holt\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.880063330449468*^9, 3.88006335083547*^9}},
+ CellLabel->
+  "In[110]:=",ExpressionUUID->"b9dab1a6-c9fb-43e2-8a41-11abfa1c4888"],
+
+Cell[BoxData[
+ TemplateBox[{
+   RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+       RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+       RowBox[{
+        "\"GitDirectory\"", "\[Rule]", 
+         "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\""}], ",", 
+       RowBox[{
+        "\"WorkingDirectory\"", "\[Rule]", 
+         "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}]}], "\[RightAssociation]"}]},
+  "GitRepo",
+  DisplayFunction->(TooltipBox[
+    PanelBox[
+     GridBox[{{
+        GraphicsBox[{
+          EdgeForm[
+           GrayLevel[0.5]], 
+          GrayLevel[0.5], 
+          Thickness[0.1], 
+          LineBox[{{0, 0}, {5, 0}}], 
+          LineBox[{{0, 0}, {5, -3}}], 
+          GrayLevel[0.85], 
+          DiskBox[{0, 0}, 1], 
+          DiskBox[{5, 0}, 1], 
+          RGBColor[0, 1, 0], 
+          DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+        "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+     Baseline], 
+    "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \"C:\\\\Users\\\\Peter\
+\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\Peter\\\\OneDrive - \
+Marshall University\\\\Documents\\\\linear-algebra-with-applications-jefferey-\
+holt\\\\\"|>]"]& )]], "Output",
+ CellChangeTimes->{3.8800633521304674`*^9},
+ CellLabel->
+  "Out[110]=",ExpressionUUID->"52cd8ebd-2482-4461-a528-6da447654c64"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitFetch", "[", "repo", "]"}]], "Input",
+ CellChangeTimes->{{3.880063357917469*^9, 3.880063388815442*^9}},
+ CellLabel->
+  "In[111]:=",ExpressionUUID->"c0c9d4f1-a415-4221-8a1d-543087f7e144"],
+
+Cell[BoxData[
+ RowBox[{"GitFetch", "[", 
+  TemplateBox[{
+    RowBox[{"\[LeftAssociation]", 
+      RowBox[{
+        RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+        RowBox[{
+         "\"GitDirectory\"", "\[Rule]", 
+          "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\""}], ",", 
+        RowBox[{
+         "\"WorkingDirectory\"", "\[Rule]", 
+          "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}]}], "\[RightAssociation]"}]},
+   "GitRepo",
+   DisplayFunction->(TooltipBox[
+     PanelBox[
+      GridBox[{{
+         GraphicsBox[{
+           EdgeForm[
+            GrayLevel[0.5]], 
+           GrayLevel[0.5], 
+           Thickness[0.1], 
+           LineBox[{{0, 0}, {5, 0}}], 
+           LineBox[{{0, 0}, {5, -3}}], 
+           GrayLevel[0.85], 
+           DiskBox[{0, 0}, 1], 
+           DiskBox[{5, 0}, 1], 
+           RGBColor[0, 1, 0], 
+           DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+         "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+      Baseline], 
+     "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \
+\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\Peter\\\\OneDrive - \
+Marshall University\\\\Documents\\\\linear-algebra-with-applications-jefferey-\
+holt\\\\\"|>]"]& )], "]"}]], "Output",
+ CellChangeTimes->{3.8800633895799627`*^9},
+ CellLabel->
+  "Out[111]=",ExpressionUUID->"b29e8c48-c33f-4a97-8c25-6c883031f113"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitRemoteQ", "[", "repo", "]"}]], "Input",
+ CellChangeTimes->{{3.8800633999088454`*^9, 3.880063402894706*^9}},
+ CellLabel->
+  "In[112]:=",ExpressionUUID->"9fc76e82-736a-43ab-99c2-5732f8b21586"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.8800634082606483`*^9},
+ CellLabel->
+  "Out[112]=",ExpressionUUID->"623ea239-ed14-48f8-8e1f-99ca4a383707"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitProperties", "[", "repo", "]"}]], "Input",
+ CellChangeTimes->{{3.8800634301304045`*^9, 3.8800634342955103`*^9}},
+ CellLabel->
+  "In[113]:=",ExpressionUUID->"0e068243-deac-4905-8156-fe16deee74d3"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"HEAD\"\>", "\[Rule]", "\<\"refs/heads/main\"\>"}], ",", 
+   RowBox[{"\<\"HeadBranch\"\>", "\[Rule]", "\<\"main\"\>"}], ",", 
+   RowBox[{"\<\"ShallowQ\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"EmptyQ\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"UnbornHeadQ\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"BareQ\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"GitDirectory\"\>", 
+    "\[Rule]", "\<\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\"\>"}], ",", 
+   RowBox[{"\<\"WorkingDirectory\"\>", 
+    "\[Rule]", "\<\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\"\>"}], ",", 
+   RowBox[{"\<\"DetachedHeadQ\"\>", "\[Rule]", "False"}], ",", 
+   RowBox[{"\<\"Namespace\"\>", "\[Rule]", "$Failed"}], ",", 
+   RowBox[{"\<\"State\"\>", "\[Rule]", "\<\"None\"\>"}], ",", 
+   RowBox[{"\<\"Conflicts\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\<\"Remotes\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{"\<\"origin\"\>", "\[Rule]", 
+      RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+        RowBox[{"\<\"FetchURL\"\>", 
+         "\[Rule]", \
+"\<\"https://github.com/PeterCullenBurbery/linear-algebra-with-applications-\
+jefferey-holt.git\"\>"}], ",", 
+        RowBox[{"\<\"PushURL\"\>", 
+         "\[Rule]", \
+"\<\"https://github.com/PeterCullenBurbery/linear-algebra-with-applications-\
+jefferey-holt.git\"\>"}], ",", 
+        RowBox[{"\<\"FetchRefSpecs\"\>", "\[Rule]", 
+         RowBox[{"{", "\<\"+refs/heads/*:refs/remotes/origin/*\"\>", "}"}]}], 
+        ",", 
+        RowBox[{"\<\"PushRefSpecs\"\>", "\[Rule]", 
+         RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]}], 
+     "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"LocalBranches\"\>", "\[Rule]", 
+    RowBox[{"{", "\<\"main\"\>", "}"}]}], ",", 
+   RowBox[{"\<\"RemoteBranches\"\>", "\[Rule]", 
+    RowBox[{"{", "\<\"origin/main\"\>", "}"}]}], ",", 
+   RowBox[{"\<\"Tags\"\>", "\[Rule]", 
+    RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.880063437203774*^9},
+ CellLabel->
+  "Out[113]=",ExpressionUUID->"0c829943-8a4e-45ac-9932-6370788a0841"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitType", "@", "repo"}]], "Input",
+ CellChangeTimes->{{3.8800634551307096`*^9, 3.8800634633523874`*^9}},
+ CellLabel->
+  "In[115]:=",ExpressionUUID->"ff14cb99-f597-4af9-8c01-aba75ac0a75c"],
+
+Cell[BoxData["None"], "Output",
+ CellChangeTimes->{{3.880063459141124*^9, 3.880063463668948*^9}},
+ CellLabel->
+  "Out[115]=",ExpressionUUID->"64c9df60-fbdd-4d87-b219-8adc2b4d8fa1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitRepos", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.8800634952957735`*^9, 3.8800634983887653`*^9}},
+ CellLabel->
+  "In[116]:=",ExpressionUUID->"c305a8dc-a0dc-4ec0-82d7-2414de2b6fe2"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\"\>\
+", "\[Rule]", 
+   TemplateBox[{
+     RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+         RowBox[{"\"BareQ\"", "\[Rule]", "False"}], ",", 
+         RowBox[{
+          "\"GitDirectory\"", "\[Rule]", 
+           "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\""}], ",", 
+         RowBox[{
+          "\"WorkingDirectory\"", "\[Rule]", 
+           "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}]}], "\[RightAssociation]"}]},
+    "GitRepo",
+    DisplayFunction->(TooltipBox[
+      PanelBox[
+       GridBox[{{
+          GraphicsBox[{
+            EdgeForm[
+             GrayLevel[0.5]], 
+            GrayLevel[0.5], 
+            Thickness[0.1], 
+            LineBox[{{0, 0}, {5, 0}}], 
+            LineBox[{{0, 0}, {5, -3}}], 
+            GrayLevel[0.85], 
+            DiskBox[{0, 0}, 1], 
+            DiskBox[{5, 0}, 1], 
+            RGBColor[0, 1, 0], 
+            DiskBox[{5, -3}, 1]}, ImageSize -> 15], 
+          "\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\
+\""}}, BaselinePosition -> {1, 2}], FrameMargins -> 5, BaselinePosition -> 
+       Baseline], 
+      "GitRepo[<|\"BareQ\" -> False, \"GitDirectory\" -> \
+\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall \
+University\\\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.\
+git\\\\\", \"WorkingDirectory\" -> \"C:\\\\Users\\\\Peter\\\\OneDrive - \
+Marshall University\\\\Documents\\\\linear-algebra-with-applications-jefferey-\
+holt\\\\\"|>]"]& )]}], "}"}]], "Output",
+ CellChangeTimes->{3.880063504621205*^9},
+ CellLabel->
+  "Out[116]=",ExpressionUUID->"8167971f-cff5-49e4-a522-019324a91778"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitProperties", "/@", 
+  RowBox[{"Values", "@", 
+   RowBox[{"Association", "@", 
+    RowBox[{"GitRepos", "[", "]"}]}]}]}]], "Input",
+ CellChangeTimes->{{3.8800635121047263`*^9, 3.8800635338820076`*^9}},
+ CellLabel->
+  "In[118]:=",ExpressionUUID->"b5625d1d-763c-4e72-892e-66a359452d0c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\[LeftAssociation]", 
+   RowBox[{
+    RowBox[{"\<\"HEAD\"\>", "\[Rule]", "\<\"refs/heads/main\"\>"}], ",", 
+    RowBox[{"\<\"HeadBranch\"\>", "\[Rule]", "\<\"main\"\>"}], ",", 
+    RowBox[{"\<\"ShallowQ\"\>", "\[Rule]", "False"}], ",", 
+    RowBox[{"\<\"EmptyQ\"\>", "\[Rule]", "False"}], ",", 
+    RowBox[{"\<\"UnbornHeadQ\"\>", "\[Rule]", "False"}], ",", 
+    RowBox[{"\<\"BareQ\"\>", "\[Rule]", "False"}], ",", 
+    RowBox[{"\<\"GitDirectory\"\>", 
+     "\[Rule]", "\<\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall University\\\
+\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\.git\\\\\"\>\
+"}], ",", 
+    RowBox[{"\<\"WorkingDirectory\"\>", 
+     "\[Rule]", "\<\"C:\\\\Users\\\\Peter\\\\OneDrive - Marshall University\\\
+\\Documents\\\\linear-algebra-with-applications-jefferey-holt\\\\\"\>"}], ",", 
+    RowBox[{"\<\"DetachedHeadQ\"\>", "\[Rule]", "False"}], ",", 
+    RowBox[{"\<\"Namespace\"\>", "\[Rule]", "$Failed"}], ",", 
+    RowBox[{"\<\"State\"\>", "\[Rule]", "\<\"None\"\>"}], ",", 
+    RowBox[{"\<\"Conflicts\"\>", "\[Rule]", 
+     RowBox[{"{", "}"}]}], ",", 
+    RowBox[{"\<\"Remotes\"\>", "\[Rule]", 
+     RowBox[{"\[LeftAssociation]", 
+      RowBox[{"\<\"origin\"\>", "\[Rule]", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\<\"FetchURL\"\>", 
+          "\[Rule]", \
+"\<\"https://github.com/PeterCullenBurbery/linear-algebra-with-applications-\
+jefferey-holt.git\"\>"}], ",", 
+         RowBox[{"\<\"PushURL\"\>", 
+          "\[Rule]", \
+"\<\"https://github.com/PeterCullenBurbery/linear-algebra-with-applications-\
+jefferey-holt.git\"\>"}], ",", 
+         RowBox[{"\<\"FetchRefSpecs\"\>", "\[Rule]", 
+          RowBox[{"{", "\<\"+refs/heads/*:refs/remotes/origin/*\"\>", "}"}]}],
+          ",", 
+         RowBox[{"\<\"PushRefSpecs\"\>", "\[Rule]", 
+          RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}]}], 
+      "\[RightAssociation]"}]}], ",", 
+    RowBox[{"\<\"LocalBranches\"\>", "\[Rule]", 
+     RowBox[{"{", "\<\"main\"\>", "}"}]}], ",", 
+    RowBox[{"\<\"RemoteBranches\"\>", "\[Rule]", 
+     RowBox[{"{", "\<\"origin/main\"\>", "}"}]}], ",", 
+    RowBox[{"\<\"Tags\"\>", "\[Rule]", 
+     RowBox[{"{", "}"}]}]}], "\[RightAssociation]"}], "}"}]], "Output",
+ CellChangeTimes->{{3.8800635183907585`*^9, 3.880063534098244*^9}},
+ CellLabel->
+  "Out[118]=",ExpressionUUID->"9c4b428e-ab43-49ce-a92d-46827f3f44d4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitType", "/@", 
+  RowBox[{"Values", "@", 
+   RowBox[{"Association", "@", 
+    RowBox[{"GitRepos", "[", "]"}]}]}]}]], "Input",
+ CellChangeTimes->{{3.8800635121047263`*^9, 3.8800635436421833`*^9}},
+ CellLabel->
+  "In[119]:=",ExpressionUUID->"9afe9977-9ecc-42b5-a734-fa55bf514a97"],
+
+Cell[BoxData[
+ RowBox[{"{", "None", "}"}]], "Output",
+ CellChangeTimes->{3.8800635440277095`*^9},
+ CellLabel->
+  "Out[119]=",ExpressionUUID->"3cceeeec-4378-40fa-a3be-e4cf4e07c027"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitClose", "/@", 
+  RowBox[{"Values", "@", 
+   RowBox[{"Association", "@", 
+    RowBox[{"GitRepos", "[", "]"}]}]}]}]], "Input",
+ CellChangeTimes->{{3.8800635525150204`*^9, 3.880063580216015*^9}},
+ CellLabel->
+  "In[120]:=",ExpressionUUID->"6e3fcabd-e846-4972-a7d2-e716c485969c"],
+
+Cell[BoxData[
+ RowBox[{"{", "Null", "}"}]], "Output",
+ CellChangeTimes->{3.880063580563862*^9},
+ CellLabel->
+  "Out[120]=",ExpressionUUID->"83ab37ab-ca49-426b-93af-2a455b6b6b8b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GitRepos", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.8800635812812977`*^9, 3.8800635836095915`*^9}},
+ CellLabel->
+  "In[121]:=",ExpressionUUID->"b750a8d8-6712-4ede-ac0b-d457fe3f91dc"],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{3.880063590079915*^9},
+ CellLabel->
+  "Out[121]=",ExpressionUUID->"ae8ecbc2-9eaf-4f3f-b262-a7b4f9b516cb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"repo", "=", 
+  RowBox[{
+  "GitClone", "[", 
+   "\"\<https://github.com/PeterCullenBurbery/linear-algebra-with-\
+applications-jefferey-holt.git\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.8800636071320515`*^9, 3.880063622581867*^9}},
+ CellLabel->
+  "In[122]:=",ExpressionUUID->"7a6cd8ef-ccef-4de6-8891-b543b63e177e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GitClone", "repoexists", "\"-- Message text not found --\"", 2, 122, 17, 
+   26937845810707220151, "Local", "Wolfram`GitLink`GitClone"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.880063623121723*^9},
+ CellLabel->
+  "During evaluation of \
+In[122]:=",ExpressionUUID->"a435b2e4-3221-448c-9743-63a2653ddd1c"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.880063623370016*^9},
+ CellLabel->
+  "Out[122]=",ExpressionUUID->"7b56c90d-3744-4ed9-b8f9-6ee06f8f1ed9"]
 }, Open  ]]
-}, Open  ]]
+}, Open  ]],
+
+Cell["Ask for support", "Section",
+ CellChangeTimes->{{3.880063674594451*^9, 
+  3.8800636771954527`*^9}},ExpressionUUID->"6b4bc103-16f0-408b-989c-\
+419c007627b0"]
 },
 WindowSize->{574.8, 609.6},
 WindowMargins->{{Automatic, -4.7999999999999545`}, {Automatic, 0}},
@@ -1831,8 +2251,58 @@ Cell[70206, 1620, 1815, 44, 49, "Output",ExpressionUUID->"6b688040-a5e6-48a5-aad
 Cell[CellGroupData[{
 Cell[72058, 1669, 213, 4, 28, "Input",ExpressionUUID->"06006670-ac26-4aef-ac02-755c7e1d78c2"],
 Cell[72274, 1675, 853, 21, 71, "Output",ExpressionUUID->"47759774-c19b-46b0-8c13-c00508e0120b"]
+}, Open  ]],
+Cell[73142, 1699, 215, 4, 28, "Input",ExpressionUUID->"abb90a3f-d3d1-4959-8727-41998a27412d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[73394, 1708, 172, 3, 67, "Section",ExpressionUUID->"8fe8d4e6-16c5-430d-ac03-861a07cef8b4"],
+Cell[CellGroupData[{
+Cell[73591, 1715, 367, 8, 105, "Input",ExpressionUUID->"b9dab1a6-c9fb-43e2-8a41-11abfa1c4888"],
+Cell[73961, 1725, 1753, 43, 49, "Output",ExpressionUUID->"52cd8ebd-2482-4461-a528-6da447654c64"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[75751, 1773, 213, 4, 28, "Input",ExpressionUUID->"c0c9d4f1-a415-4221-8a1d-543087f7e144"],
+Cell[75967, 1779, 1816, 44, 49, "Output",ExpressionUUID->"b29e8c48-c33f-4a97-8c25-6c883031f113"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[77820, 1828, 217, 4, 28, "Input",ExpressionUUID->"9fc76e82-736a-43ab-99c2-5732f8b21586"],
+Cell[78040, 1834, 161, 3, 32, "Output",ExpressionUUID->"623ea239-ed14-48f8-8e1f-99ca4a383707"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[78238, 1842, 222, 4, 28, "Input",ExpressionUUID->"0e068243-deac-4905-8156-fe16deee74d3"],
+Cell[78463, 1848, 2335, 49, 360, "Output",ExpressionUUID->"0c829943-8a4e-45ac-9932-6370788a0841"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[80835, 1902, 211, 4, 28, "Input",ExpressionUUID->"ff14cb99-f597-4af9-8c01-aba75ac0a75c"],
+Cell[81049, 1908, 180, 3, 32, "Output",ExpressionUUID->"64c9df60-fbdd-4d87-b219-8adc2b4d8fa1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[81266, 1916, 209, 4, 28, "Input",ExpressionUUID->"c305a8dc-a0dc-4ec0-82d7-2414de2b6fe2"],
+Cell[81478, 1922, 1988, 47, 96, "Output",ExpressionUUID->"8167971f-cff5-49e4-a522-019324a91778"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[83503, 1974, 309, 7, 28, "Input",ExpressionUUID->"b5625d1d-763c-4e72-892e-66a359452d0c"],
+Cell[83815, 1983, 2419, 49, 361, "Output",ExpressionUUID->"9c4b428e-ab43-49ce-a92d-46827f3f44d4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[86271, 2037, 303, 7, 28, "Input",ExpressionUUID->"9afe9977-9ecc-42b5-a734-fa55bf514a97"],
+Cell[86577, 2046, 180, 4, 32, "Output",ExpressionUUID->"3cceeeec-4378-40fa-a3be-e4cf4e07c027"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[86794, 2055, 302, 7, 28, "Input",ExpressionUUID->"6e3fcabd-e846-4972-a7d2-e716c485969c"],
+Cell[87099, 2064, 178, 4, 32, "Output",ExpressionUUID->"83ab37ab-ca49-426b-93af-2a455b6b6b8b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[87314, 2073, 209, 4, 28, "Input",ExpressionUUID->"b750a8d8-6712-4ede-ac0b-d457fe3f91dc"],
+Cell[87526, 2079, 170, 4, 32, "Output",ExpressionUUID->"ae8ecbc2-9eaf-4f3f-b262-a7b4f9b516cb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[87733, 2088, 342, 8, 86, "Input",ExpressionUUID->"7a6cd8ef-ccef-4de6-8891-b543b63e177e"],
+Cell[88078, 2098, 358, 8, 28, "Message",ExpressionUUID->"a435b2e4-3221-448c-9743-63a2653ddd1c"],
+Cell[88439, 2108, 159, 3, 32, "Output",ExpressionUUID->"7b56c90d-3744-4ed9-b8f9-6ee06f8f1ed9"]
 }, Open  ]]
-}, Open  ]]
+}, Open  ]],
+Cell[88625, 2115, 162, 3, 67, "Section",ExpressionUUID->"6b4bc103-16f0-408b-989c-419c007627b0"]
 }
 ]
 *)
