@@ -10,18 +10,1626 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[       858,         35]
-NotebookOptionsPosition[       561,         21]
-NotebookOutlinePosition[       998,         38]
-CellTagsIndexPosition[       955,         35]
+NotebookDataLength[     81980,       1672]
+NotebookOptionsPosition[     79965,       1628]
+NotebookOutlinePosition[     80444,       1646]
+CellTagsIndexPosition[     80401,       1643]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+
+Cell[CellGroupData[{
+Cell["Example", "Section",
+ CellChangeTimes->{{3.8800621730949717`*^9, 
+  3.880062175254572*^9}},ExpressionUUID->"ccafd7ae-c0e0-4f00-bd16-\
+a438a146ba19"],
+
+Cell["\<\
+Fran is designing a solar hot water system for her home. The system works by \
+circulating a mixture of water and propylene glycol through rooftop solar \
+panels to absorb heat, and then through a heat exchanger to heat household \
+water. The glycol is included in the mixture to prevent freezing during cold \
+weather. Table 1 shows the percentage of glycol required for various minimum \
+temperatures.\
+\>", "Text",
+ CellChangeTimes->{{3.880062176890792*^9, 3.8800622946044245`*^9}},
+ Background->RGBColor[
+  0.87, 0.94, 1],ExpressionUUID->"a1e6dcaa-9d39-4ca6-9abc-f214f9bdf65b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"QuantityArray", "[", 
+  RowBox[{
+   RowBox[{"Range", "[", 
+    RowBox[{"20", ",", 
+     RowBox[{"-", "50"}], ",", 
+     RowBox[{"-", "10"}]}], "]"}], ",", "\"\<DegreesCelsius\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8800622958928423`*^9, 3.88006233888872*^9}},
+ CellLabel->"In[66]:=",ExpressionUUID->"4f08e49f-5c22-46d4-a28c-646127858101"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["QuantityArray",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxOpener"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              
+              RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74, 0.74,
+                0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 0.52, 
+               0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {0.79, 0.79, 
+               0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 0.66}, {0.32, 0.32, 
+               0.32}}}, {{-0.25, -0.33}, {1.25, 2.33}}, {0, 1}], {{
+               Antialiasing -> False, 
+                GrayLevel[0.3], 
+                
+                LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {1.25,
+                  1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {1.25, 
+                 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+               Antialiasing -> False, 
+                GrayLevel[0.3], 
+                
+                LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{0.25, -0.33}, {
+                 0.25, 2.33}}, {{0.75, -0.33}, {0.75, 2.33}}, {{
+                 1.25, -0.33}, {1.25, 2.33}}}]}}}, PlotRangeClipping -> True, 
+             Background -> GrayLevel[0.93], 
+             Frame -> {{True, True}, {True, True}}, 
+             FrameLabel -> {None, None}, FrameStyle -> {{
+                Directive[
+                 GrayLevel[0.2], 
+                 AbsoluteThickness[1]], 
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]]}, {
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]], 
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+               None, None}}, GridLinesStyle -> Directive[
+               GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}], 
+             Method -> {
+              "DefaultBoundaryStyle" -> Automatic, "DefaultPlotStyle" -> 
+               Automatic}, PlotRangePadding -> {{1, 0}, {0, 0}}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox["\"DegreesCelsius\"", Short[#, 2]& ], 
+                  "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxCloser"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              
+              RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74, 0.74,
+                0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 0.52, 
+               0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {0.79, 0.79, 
+               0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 0.66}, {0.32, 0.32, 
+               0.32}}}, {{-0.25, -0.33}, {1.25, 2.33}}, {0, 1}], {{
+               Antialiasing -> False, 
+                GrayLevel[0.3], 
+                
+                LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {1.25,
+                  1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {1.25, 
+                 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+               Antialiasing -> False, 
+                GrayLevel[0.3], 
+                
+                LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{0.25, -0.33}, {
+                 0.25, 2.33}}, {{0.75, -0.33}, {0.75, 2.33}}, {{
+                 1.25, -0.33}, {1.25, 2.33}}}]}}}, PlotRangeClipping -> True, 
+             Background -> GrayLevel[0.93], 
+             Frame -> {{True, True}, {True, True}}, 
+             FrameLabel -> {None, None}, FrameStyle -> {{
+                Directive[
+                 GrayLevel[0.2], 
+                 AbsoluteThickness[1]], 
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]]}, {
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]], 
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+               None, None}}, GridLinesStyle -> Directive[
+               GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}], 
+             Method -> {
+              "DefaultBoundaryStyle" -> Automatic, "DefaultPlotStyle" -> 
+               Automatic}, PlotRangePadding -> {{1, 0}, {0, 0}}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox["\"DegreesCelsius\"", Short[#, 2]& ], 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"MinMax: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  RowBox[{"{", 
+                    RowBox[{
+                    TemplateBox[{
+                    RowBox[{"-", "50"}], "\"\[Degree]C\"", "degrees Celsius", 
+                    "\"DegreesCelsius\""}, "Quantity", SyntaxForm -> Mod], 
+                    ",", 
+                    
+                    TemplateBox[{
+                    "20", "\"\[Degree]C\"", "degrees Celsius", 
+                    "\"DegreesCelsius\""}, "Quantity", SyntaxForm -> Mod]}], 
+                    "}"}], "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  QuantityArray[
+   StructuredArray`StructuredData[{
+    8}, {{20, 10, 0, -10, -20, -30, -40, -50}, "DegreesCelsius", {{1}}}]],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{{3.880062329294118*^9, 3.88006233933669*^9}},
+ CellLabel->"Out[66]=",ExpressionUUID->"17c3044a-14ba-454b-8b5b-dbe7879764d6"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"CopyToClipboard", "[", 
+  RowBox[{"Iconize", "[", 
+   RowBox[{
+    RowBox[{"QuantityArray", "[", 
+     RowBox[{
+      RowBox[{"Range", "[", 
+       RowBox[{"20", ",", 
+        RowBox[{"-", "50"}], ",", 
+        RowBox[{"-", "10"}]}], "]"}], ",", "\"\<DegreesCelsius\>\""}], "]"}], 
+    ",", "\"\<temperature data\>\""}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8800623568546934`*^9, 3.880062364593382*^9}},
+ CellLabel->"In[68]:=",ExpressionUUID->"25c526fa-0221-4f97-828f-e820c4d9ec5c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Normal", "[", 
+  RowBox[{"QuantityArray", "[", 
+   RowBox[{
+    RowBox[{"Range", "[", 
+     RowBox[{"20", ",", 
+      RowBox[{"-", "50"}], ",", 
+      RowBox[{"-", "10"}]}], "]"}], ",", "\"\<DegreesCelsius\>\""}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8800623414271574`*^9, 3.8800623424834423`*^9}},
+ CellLabel->"In[67]:=",ExpressionUUID->"f268eb6f-1024-4cf2-8a47-6a470b43eaa6"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{
+    "20", "\"\[Degree]C\"", "degrees Celsius", "\"DegreesCelsius\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+    "10", "\"\[Degree]C\"", "degrees Celsius", "\"DegreesCelsius\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+    "0", "\"\[Degree]C\"", "degrees Celsius", "\"DegreesCelsius\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     RowBox[{"-", "10"}], "\"\[Degree]C\"", "degrees Celsius", 
+     "\"DegreesCelsius\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     RowBox[{"-", "20"}], "\"\[Degree]C\"", "degrees Celsius", 
+     "\"DegreesCelsius\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     RowBox[{"-", "30"}], "\"\[Degree]C\"", "degrees Celsius", 
+     "\"DegreesCelsius\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     RowBox[{"-", "40"}], "\"\[Degree]C\"", "degrees Celsius", 
+     "\"DegreesCelsius\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     RowBox[{"-", "50"}], "\"\[Degree]C\"", "degrees Celsius", 
+     "\"DegreesCelsius\""},
+    "Quantity"]}], "}"}]], "Output",
+ CellChangeTimes->{3.8800623428532047`*^9},
+ CellLabel->"Out[67]=",ExpressionUUID->"76f03466-8003-43fd-ab1c-fbd3c49570b3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"UnitConvert", "[", 
+  RowBox[{
+   InterpretationBox[
+    DynamicModuleBox[{Typeset`open = False}, 
+     TemplateBox[{"Expression", 
+       StyleBox[
+       "\"temperature data\"", "IconizedCustomName", StripOnInput -> False], 
+       GridBox[{{
+          RowBox[{
+            TagBox["\"Head: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            TagBox[
+             RowBox[{"NotebookTools`IconizeDump`iDefer", "[", 
+               RowBox[{
+                 RowBox[{"HoldComplete", "[", 
+                   InterpretationBox[
+                    RowBox[{
+                    TagBox["QuantityArray", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SummaryBoxOpener"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[{
+                    
+                    RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74,
+                     0.74, 0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 
+                    0.52, 0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {
+                    0.79, 0.79, 0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 
+                    0.66}, {0.32, 0.32, 0.32}}}, {{-0.25, -0.33}, {1.25, 
+                    2.33}}, {0, 1}], {{Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {
+                    1.25, 1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {
+                    1.25, 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+                    Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{
+                    0.25, -0.33}, {0.25, 2.33}}, {{0.75, -0.33}, {0.75, 
+                    2.33}}, {{1.25, -0.33}, {1.25, 2.33}}}]}}}, 
+                    PlotRangeClipping -> True, Background -> GrayLevel[0.93], 
+                    Frame -> {{True, True}, {True, True}}, 
+                    FrameLabel -> {None, None}, FrameStyle -> {{
+                    Directive[
+                    GrayLevel[0.2], 
+                    AbsoluteThickness[1]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}, {
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+                    None, None}}, GridLinesStyle -> Directive[
+                    GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}], 
+                    Method -> {"DefaultBoundaryStyle" -> Automatic, 
+                    "DefaultPlotStyle" -> Automatic}, 
+                    PlotRangePadding -> {{1, 0}, {0, 0}}], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox["\"DegreesCelsius\"", Short[#, 2]& ], 
+                    "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {
+                    ShowStringCharacters -> False, NumberMarks -> False, 
+                    PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SummaryBoxCloser"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[{
+                    
+                    RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74,
+                     0.74, 0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 
+                    0.52, 0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {
+                    0.79, 0.79, 0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 
+                    0.66}, {0.32, 0.32, 0.32}}}, {{-0.25, -0.33}, {1.25, 
+                    2.33}}, {0, 1}], {{Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {
+                    1.25, 1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {
+                    1.25, 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+                    Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{
+                    0.25, -0.33}, {0.25, 2.33}}, {{0.75, -0.33}, {0.75, 
+                    2.33}}, {{1.25, -0.33}, {1.25, 2.33}}}]}}}, 
+                    PlotRangeClipping -> True, Background -> GrayLevel[0.93], 
+                    Frame -> {{True, True}, {True, True}}, 
+                    FrameLabel -> {None, None}, FrameStyle -> {{
+                    Directive[
+                    GrayLevel[0.2], 
+                    AbsoluteThickness[1]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}, {
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+                    None, None}}, GridLinesStyle -> Directive[
+                    GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}], 
+                    Method -> {"DefaultBoundaryStyle" -> Automatic, 
+                    "DefaultPlotStyle" -> Automatic}, 
+                    PlotRangePadding -> {{1, 0}, {0, 0}}], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox["\"DegreesCelsius\"", Short[#, 2]& ], 
+                    "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"MinMax: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", 
+                    RowBox[{
+                    TemplateBox[{
+                    RowBox[{"-", "50"}], "\"\[Degree]C\"", "degrees Celsius", 
+                    "\"DegreesCelsius\""}, "Quantity", SyntaxForm -> Mod], 
+                    ",", 
+                    
+                    TemplateBox[{"20", "\"\[Degree]C\"", "degrees Celsius", 
+                    "\"DegreesCelsius\""}, "Quantity", SyntaxForm -> Mod]}], 
+                    "}"}], "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {
+                    ShowStringCharacters -> False, NumberMarks -> False, 
+                    PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    QuantityArray[
+                    
+                    StructuredArray`StructuredData[{
+                    8}, {{20, 10, 0, -10, -20, -30, -40, -50}, 
+                    "DegreesCelsius", {{1}}}]], Selectable -> False, Editable -> 
+                    False, SelectWithContents -> True], "]"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{"1", ",", "0"}], "}"}], ",", "HoldComplete"}], 
+               "]"}], "IconizedItem"]}]}, {
+          RowBox[{
+            TagBox["\"Byte count: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            TagBox["664", "IconizedItem"]}]}}, 
+        GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+        "Column", 
+        GridBoxItemSize -> {
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+       Dynamic[Typeset`open]},
+      "IconizedObject"]],
+    QuantityArray[
+     StructuredArray`StructuredData[{
+      8}, {{20, 10, 0, -10, -20, -30, -40, -50}, "DegreesCelsius", {{1}}}]],
+    SelectWithContents->True,
+    Selectable->False], ",", "\"\<Kelvins\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.880062344753013*^9, 3.880062385954245*^9}},
+ CellLabel->"In[71]:=",ExpressionUUID->"46768beb-53ae-4d93-8cab-823ce1bf5ee9"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["QuantityArray",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxOpener"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              
+              RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74, 0.74,
+                0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 0.52, 
+               0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {0.79, 0.79, 
+               0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 0.66}, {0.32, 0.32, 
+               0.32}}}, {{-0.25, -0.33}, {1.25, 2.33}}, {0, 1}], {{
+               Antialiasing -> False, 
+                GrayLevel[0.3], 
+                
+                LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {1.25,
+                  1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {1.25, 
+                 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+               Antialiasing -> False, 
+                GrayLevel[0.3], 
+                
+                LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{0.25, -0.33}, {
+                 0.25, 2.33}}, {{0.75, -0.33}, {0.75, 2.33}}, {{
+                 1.25, -0.33}, {1.25, 2.33}}}]}}}, PlotRangeClipping -> True, 
+             Background -> GrayLevel[0.93], 
+             Frame -> {{True, True}, {True, True}}, 
+             FrameLabel -> {None, None}, FrameStyle -> {{
+                Directive[
+                 GrayLevel[0.2], 
+                 AbsoluteThickness[1]], 
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]]}, {
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]], 
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+               None, None}}, GridLinesStyle -> Directive[
+               GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}], 
+             Method -> {
+              "DefaultBoundaryStyle" -> Automatic, "DefaultPlotStyle" -> 
+               Automatic}, PlotRangePadding -> {{1, 0}, {0, 0}}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox["\"Kelvins\"", Short[#, 2]& ], "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxCloser"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              
+              RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74, 0.74,
+                0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 0.52, 
+               0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {0.79, 0.79, 
+               0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 0.66}, {0.32, 0.32, 
+               0.32}}}, {{-0.25, -0.33}, {1.25, 2.33}}, {0, 1}], {{
+               Antialiasing -> False, 
+                GrayLevel[0.3], 
+                
+                LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {1.25,
+                  1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {1.25, 
+                 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+               Antialiasing -> False, 
+                GrayLevel[0.3], 
+                
+                LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{0.25, -0.33}, {
+                 0.25, 2.33}}, {{0.75, -0.33}, {0.75, 2.33}}, {{
+                 1.25, -0.33}, {1.25, 2.33}}}]}}}, PlotRangeClipping -> True, 
+             Background -> GrayLevel[0.93], 
+             Frame -> {{True, True}, {True, True}}, 
+             FrameLabel -> {None, None}, FrameStyle -> {{
+                Directive[
+                 GrayLevel[0.2], 
+                 AbsoluteThickness[1]], 
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]]}, {
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]], 
+                Directive[
+                 Thickness[Tiny], 
+                 GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                  FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                  FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+               None, None}}, GridLinesStyle -> Directive[
+               GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}], 
+             Method -> {
+              "DefaultBoundaryStyle" -> Automatic, "DefaultPlotStyle" -> 
+               Automatic}, PlotRangePadding -> {{1, 0}, {0, 0}}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox["\"Kelvins\"", Short[#, 2]& ], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"MinMax: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  RowBox[{"{", 
+                    RowBox[{
+                    TemplateBox[{
+                    FractionBox["4463", "20"], "\"K\"", "kelvins", 
+                    "\"Kelvins\""}, "Quantity", SyntaxForm -> Mod], ",", 
+                    TemplateBox[{
+                    FractionBox["5863", "20"], "\"K\"", "kelvins", 
+                    "\"Kelvins\""}, "Quantity", SyntaxForm -> Mod]}], "}"}], 
+                  "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  QuantityArray[
+   StructuredArray`StructuredData[{8}, {{
+      Rational[5863, 20], 
+      Rational[5663, 20], 
+      Rational[5463, 20], 
+      Rational[5263, 20], 
+      Rational[5063, 20], 
+      Rational[4863, 20], 
+      Rational[4663, 20], 
+      Rational[4463, 20]}, "Kelvins", {{1}}}]],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{{3.8800623714505444`*^9, 3.8800623878287487`*^9}},
+ CellLabel->"Out[71]=",ExpressionUUID->"c829f6e6-fb0a-455f-9b07-b79e741a3e28"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Normal", "[", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    InterpretationBox[
+     DynamicModuleBox[{Typeset`open = False}, 
+      TemplateBox[{"Expression", 
+        StyleBox[
+        "\"temperature data\"", "IconizedCustomName", StripOnInput -> False], 
+        GridBox[{{
+           RowBox[{
+             TagBox["\"Head: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+             TagBox[
+              RowBox[{"NotebookTools`IconizeDump`iDefer", "[", 
+                RowBox[{
+                  RowBox[{"HoldComplete", "[", 
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["QuantityArray", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SummaryBoxOpener"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[{
+                    
+                    RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74,
+                     0.74, 0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 
+                    0.52, 0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {
+                    0.79, 0.79, 0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 
+                    0.66}, {0.32, 0.32, 0.32}}}, {{-0.25, -0.33}, {1.25, 
+                    2.33}}, {0, 1}], {{Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {
+                    1.25, 1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {
+                    1.25, 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+                    Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{
+                    0.25, -0.33}, {0.25, 2.33}}, {{0.75, -0.33}, {0.75, 
+                    2.33}}, {{1.25, -0.33}, {1.25, 2.33}}}]}}}, 
+                    PlotRangeClipping -> True, Background -> GrayLevel[0.93], 
+                    Frame -> {{True, True}, {True, True}}, 
+                    FrameLabel -> {None, None}, FrameStyle -> {{
+                    Directive[
+                    GrayLevel[0.2], 
+                    AbsoluteThickness[1]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}, {
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+                    None, None}}, GridLinesStyle -> Directive[
+                    GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}], 
+                    Method -> {"DefaultBoundaryStyle" -> Automatic, 
+                    "DefaultPlotStyle" -> Automatic}, 
+                    PlotRangePadding -> {{1, 0}, {0, 0}}], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox["\"DegreesCelsius\"", Short[#, 2]& ], 
+                    "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {
+                    ShowStringCharacters -> False, NumberMarks -> False, 
+                    PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SummaryBoxCloser"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[{
+                    
+                    RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74,
+                     0.74, 0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 
+                    0.52, 0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {
+                    0.79, 0.79, 0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 
+                    0.66}, {0.32, 0.32, 0.32}}}, {{-0.25, -0.33}, {1.25, 
+                    2.33}}, {0, 1}], {{Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {
+                    1.25, 1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {
+                    1.25, 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+                    Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{
+                    0.25, -0.33}, {0.25, 2.33}}, {{0.75, -0.33}, {0.75, 
+                    2.33}}, {{1.25, -0.33}, {1.25, 2.33}}}]}}}, 
+                    PlotRangeClipping -> True, Background -> GrayLevel[0.93], 
+                    Frame -> {{True, True}, {True, True}}, 
+                    FrameLabel -> {None, None}, FrameStyle -> {{
+                    Directive[
+                    GrayLevel[0.2], 
+                    AbsoluteThickness[1]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}, {
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+                    None, None}}, GridLinesStyle -> Directive[
+                    GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}], 
+                    Method -> {"DefaultBoundaryStyle" -> Automatic, 
+                    "DefaultPlotStyle" -> Automatic}, 
+                    PlotRangePadding -> {{1, 0}, {0, 0}}], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox["\"DegreesCelsius\"", Short[#, 2]& ], 
+                    "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"MinMax: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", 
+                    RowBox[{
+                    TemplateBox[{
+                    RowBox[{"-", "50"}], "\"\[Degree]C\"", "degrees Celsius", 
+                    "\"DegreesCelsius\""}, "Quantity", SyntaxForm -> Mod], 
+                    ",", 
+                    
+                    TemplateBox[{"20", "\"\[Degree]C\"", "degrees Celsius", 
+                    "\"DegreesCelsius\""}, "Quantity", SyntaxForm -> Mod]}], 
+                    "}"}], "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {
+                    ShowStringCharacters -> False, NumberMarks -> False, 
+                    PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    QuantityArray[
+                    
+                    StructuredArray`StructuredData[{
+                    8}, {{20, 10, 0, -10, -20, -30, -40, -50}, 
+                    "DegreesCelsius", {{1}}}]], Selectable -> False, Editable -> 
+                    False, SelectWithContents -> True], "]"}], ",", 
+                  RowBox[{"{", 
+                    RowBox[{"1", ",", "0"}], "}"}], ",", "HoldComplete"}], 
+                "]"}], "IconizedItem"]}]}, {
+           RowBox[{
+             TagBox["\"Byte count: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+             TagBox["664", "IconizedItem"]}]}}, 
+         GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+         "Column", 
+         GridBoxItemSize -> {
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+        Dynamic[Typeset`open]},
+       "IconizedObject"]],
+     QuantityArray[
+      StructuredArray`StructuredData[{
+       8}, {{20, 10, 0, -10, -20, -30, -40, -50}, "DegreesCelsius", {{1}}}]],
+     SelectWithContents->True,
+     Selectable->False], ",", "\"\<Kelvins\>\""}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.880062374859586*^9, 3.8800623760943213`*^9}},
+ CellLabel->"In[70]:=",ExpressionUUID->"a622e994-5b28-4256-a640-07c9e8ad6945"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{
+     FractionBox["5863", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["5663", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["5463", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["5263", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["5063", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["4863", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["4663", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["4463", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"]}], "}"}]], "Output",
+ CellChangeTimes->{3.8800623764264994`*^9},
+ CellLabel->"Out[70]=",ExpressionUUID->"2c213cb7-2f57-4425-9d91-7018d47c3f75"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Normal", "[", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    InterpretationBox[
+     DynamicModuleBox[{Typeset`open = False}, 
+      TemplateBox[{"Expression", 
+        StyleBox[
+        "\"temperature data\"", "IconizedCustomName", StripOnInput -> False], 
+        GridBox[{{
+           RowBox[{
+             TagBox["\"Head: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+             TagBox[
+              RowBox[{"NotebookTools`IconizeDump`iDefer", "[", 
+                RowBox[{
+                  RowBox[{"HoldComplete", "[", 
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["QuantityArray", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SummaryBoxOpener"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[{
+                    
+                    RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74,
+                     0.74, 0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 
+                    0.52, 0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {
+                    0.79, 0.79, 0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 
+                    0.66}, {0.32, 0.32, 0.32}}}, {{-0.25, -0.33}, {1.25, 
+                    2.33}}, {0, 1}], {{Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {
+                    1.25, 1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {
+                    1.25, 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+                    Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{
+                    0.25, -0.33}, {0.25, 2.33}}, {{0.75, -0.33}, {0.75, 
+                    2.33}}, {{1.25, -0.33}, {1.25, 2.33}}}]}}}, 
+                    PlotRangeClipping -> True, Background -> GrayLevel[0.93], 
+                    Frame -> {{True, True}, {True, True}}, 
+                    FrameLabel -> {None, None}, FrameStyle -> {{
+                    Directive[
+                    GrayLevel[0.2], 
+                    AbsoluteThickness[1]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}, {
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+                    None, None}}, GridLinesStyle -> Directive[
+                    GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}], 
+                    Method -> {"DefaultBoundaryStyle" -> Automatic, 
+                    "DefaultPlotStyle" -> Automatic}, 
+                    PlotRangePadding -> {{1, 0}, {0, 0}}], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox["\"DegreesCelsius\"", Short[#, 2]& ], 
+                    "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {
+                    ShowStringCharacters -> False, NumberMarks -> False, 
+                    PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SummaryBoxCloser"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[{
+                    
+                    RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74,
+                     0.74, 0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 
+                    0.52, 0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {
+                    0.79, 0.79, 0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 
+                    0.66}, {0.32, 0.32, 0.32}}}, {{-0.25, -0.33}, {1.25, 
+                    2.33}}, {0, 1}], {{Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {
+                    1.25, 1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {
+                    1.25, 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+                    Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{
+                    0.25, -0.33}, {0.25, 2.33}}, {{0.75, -0.33}, {0.75, 
+                    2.33}}, {{1.25, -0.33}, {1.25, 2.33}}}]}}}, 
+                    PlotRangeClipping -> True, Background -> GrayLevel[0.93], 
+                    Frame -> {{True, True}, {True, True}}, 
+                    FrameLabel -> {None, None}, FrameStyle -> {{
+                    Directive[
+                    GrayLevel[0.2], 
+                    AbsoluteThickness[1]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}, {
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+                    None, None}}, GridLinesStyle -> Directive[
+                    GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}], 
+                    Method -> {"DefaultBoundaryStyle" -> Automatic, 
+                    "DefaultPlotStyle" -> Automatic}, 
+                    PlotRangePadding -> {{1, 0}, {0, 0}}], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox["\"DegreesCelsius\"", Short[#, 2]& ], 
+                    "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"MinMax: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", 
+                    RowBox[{
+                    TemplateBox[{
+                    RowBox[{"-", "50"}], "\"\[Degree]C\"", "degrees Celsius", 
+                    "\"DegreesCelsius\""}, "Quantity", SyntaxForm -> Mod], 
+                    ",", 
+                    
+                    TemplateBox[{"20", "\"\[Degree]C\"", "degrees Celsius", 
+                    "\"DegreesCelsius\""}, "Quantity", SyntaxForm -> Mod]}], 
+                    "}"}], "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {
+                    ShowStringCharacters -> False, NumberMarks -> False, 
+                    PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    QuantityArray[
+                    
+                    StructuredArray`StructuredData[{
+                    8}, {{20, 10, 0, -10, -20, -30, -40, -50}, 
+                    "DegreesCelsius", {{1}}}]], Selectable -> False, Editable -> 
+                    False, SelectWithContents -> True], "]"}], ",", 
+                  RowBox[{"{", 
+                    RowBox[{"1", ",", "0"}], "}"}], ",", "HoldComplete"}], 
+                "]"}], "IconizedItem"]}]}, {
+           RowBox[{
+             TagBox["\"Byte count: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+             TagBox["664", "IconizedItem"]}]}}, 
+         GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+         "Column", 
+         GridBoxItemSize -> {
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+        Dynamic[Typeset`open]},
+       "IconizedObject"]],
+     QuantityArray[
+      StructuredArray`StructuredData[{
+       8}, {{20, 10, 0, -10, -20, -30, -40, -50}, "DegreesCelsius", {{1}}}]],
+     SelectWithContents->True,
+     Selectable->False], ",", 
+    TemplateBox[{"1", "\"K\"", "kelvin", "\"Kelvins\""},
+     "Quantity"]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.880062374859586*^9, 3.880062396038619*^9}},
+ CellLabel->"In[72]:=",ExpressionUUID->"136b65e6-9029-4ce1-8981-d396901f8ae3"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{
+     FractionBox["5863", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["5663", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["5463", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["5263", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["5063", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["4863", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["4663", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{
+     FractionBox["4463", "20"], "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"]}], "}"}]], "Output",
+ CellChangeTimes->{3.8800624007519207`*^9},
+ CellLabel->"Out[72]=",ExpressionUUID->"9cbc0824-92ef-4c20-bba1-4c7b9cd02a8d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Normal", "[", 
+   RowBox[{"UnitConvert", "[", 
+    RowBox[{
+     InterpretationBox[
+      DynamicModuleBox[{Typeset`open = False}, 
+       TemplateBox[{"Expression", 
+         StyleBox[
+         "\"temperature data\"", "IconizedCustomName", StripOnInput -> False], 
+         GridBox[{{
+            RowBox[{
+              TagBox["\"Head: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+              TagBox[
+               RowBox[{"NotebookTools`IconizeDump`iDefer", "[", 
+                 RowBox[{
+                   RowBox[{"HoldComplete", "[", 
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["QuantityArray", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SummaryBoxOpener"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[{
+                    
+                    RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74,
+                     0.74, 0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 
+                    0.52, 0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {
+                    0.79, 0.79, 0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 
+                    0.66}, {0.32, 0.32, 0.32}}}, {{-0.25, -0.33}, {1.25, 
+                    2.33}}, {0, 1}], {{Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {
+                    1.25, 1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {
+                    1.25, 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+                    Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{
+                    0.25, -0.33}, {0.25, 2.33}}, {{0.75, -0.33}, {0.75, 
+                    2.33}}, {{1.25, -0.33}, {1.25, 2.33}}}]}}}, 
+                    PlotRangeClipping -> True, Background -> GrayLevel[0.93], 
+                    Frame -> {{True, True}, {True, True}}, 
+                    FrameLabel -> {None, None}, FrameStyle -> {{
+                    Directive[
+                    GrayLevel[0.2], 
+                    AbsoluteThickness[1]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}, {
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+                    None, None}}, GridLinesStyle -> Directive[
+                    GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}], 
+                    Method -> {"DefaultBoundaryStyle" -> Automatic, 
+                    "DefaultPlotStyle" -> Automatic}, 
+                    PlotRangePadding -> {{1, 0}, {0, 0}}], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox["\"DegreesCelsius\"", Short[#, 2]& ], 
+                    "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SummaryBoxCloser"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+                    "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[{
+                    
+                    RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74,
+                     0.74, 0.74}}, {{0.4, 0.4, 0.4}, {0.8, 0.8, 0.8}, {0.52, 
+                    0.52, 0.52}}, {{0.72, 0.72, 0.72}, {0.59, 0.59, 0.59}, {
+                    0.79, 0.79, 0.79}}, {{0.58, 0.58, 0.58}, {0.66, 0.66, 
+                    0.66}, {0.32, 0.32, 0.32}}}, {{-0.25, -0.33}, {1.25, 
+                    2.33}}, {0, 1}], {{Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, 2.33}, {1.25, 2.33}}, {{-0.25, 1.67}, {
+                    1.25, 1.67}}, {{-0.25, 1.}, {1.25, 1.}}, {{-0.25, 0.33}, {
+                    1.25, 0.33}}, {{-0.25, -0.33}, {1.25, -0.33}}}]}, {
+                    Antialiasing -> False, 
+                    GrayLevel[0.3], 
+                    
+                    LineBox[{{{-0.25, -0.33}, {-0.25, 2.33}}, {{
+                    0.25, -0.33}, {0.25, 2.33}}, {{0.75, -0.33}, {0.75, 
+                    2.33}}, {{1.25, -0.33}, {1.25, 2.33}}}]}}}, 
+                    PlotRangeClipping -> True, Background -> GrayLevel[0.93], 
+                    Frame -> {{True, True}, {True, True}}, 
+                    FrameLabel -> {None, None}, FrameStyle -> {{
+                    Directive[
+                    GrayLevel[0.2], 
+                    AbsoluteThickness[1]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}, {
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]], 
+                    Directive[
+                    Thickness[Tiny], 
+                    GrayLevel[0.7]]}}, FrameTicks -> {{{{-0.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.583, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {1.417, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {2.25, 
+                    FormBox["\"\"", TraditionalForm], {0.25, 0}}, {0.028, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.306, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {0.861, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.139, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.694, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}, {1.972, 
+                    FormBox["\"\"", TraditionalForm], {0.12, 0}}}, None}, {
+                    None, None}}, GridLinesStyle -> Directive[
+                    GrayLevel[0.5, 0.4]], ImagePadding -> 2, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}], 
+                    Method -> {"DefaultBoundaryStyle" -> Automatic, 
+                    "DefaultPlotStyle" -> Automatic}, 
+                    PlotRangePadding -> {{1, 0}, {0, 0}}], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Dimensions: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", "8", "}"}], "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"Unit: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox["\"DegreesCelsius\"", Short[#, 2]& ], 
+                    "SummaryItem"]}]}, {
+                    RowBox[{
+                    TagBox["\"MinMax: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    RowBox[{"{", 
+                    RowBox[{
+                    TemplateBox[{
+                    RowBox[{"-", "50"}], "\"\[Degree]C\"", "degrees Celsius", 
+                    "\"DegreesCelsius\""}, "Quantity", SyntaxForm -> Mod], 
+                    ",", 
+                    
+                    TemplateBox[{"20", "\"\[Degree]C\"", "degrees Celsius", 
+                    "\"DegreesCelsius\""}, "Quantity", SyntaxForm -> Mod]}], 
+                    "}"}], "SummaryItem"]}]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    QuantityArray[
+                    
+                    StructuredArray`StructuredData[{
+                    8}, {{20, 10, 0, -10, -20, -30, -40, -50}, 
+                    "DegreesCelsius", {{1}}}]], Selectable -> False, Editable -> 
+                    False, SelectWithContents -> True], "]"}], ",", 
+                   RowBox[{"{", 
+                    RowBox[{"1", ",", "0"}], "}"}], ",", "HoldComplete"}], 
+                 "]"}], "IconizedItem"]}]}, {
+            RowBox[{
+              TagBox["\"Byte count: \"", "IconizedLabel"], 
+              "\[InvisibleSpace]", 
+              TagBox["664", "IconizedItem"]}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+          "Column", 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+         Dynamic[Typeset`open]},
+        "IconizedObject"]],
+      QuantityArray[
+       StructuredArray`StructuredData[{
+        8}, {{20, 10, 0, -10, -20, -30, -40, -50}, "DegreesCelsius", {{1}}}]],
+      SelectWithContents->True,
+      Selectable->False], ",", 
+     TemplateBox[{"1", "\"K\"", "kelvin", "\"Kelvins\""},
+      "Quantity"]}], "]"}], "]"}], "//", "N"}]], "Input",
+ CellChangeTimes->{{3.880062374859586*^9, 3.880062405781748*^9}},
+ CellLabel->"In[73]:=",ExpressionUUID->"5db2d42f-b81a-4bac-8d3a-9c47efc182f4"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"293.15`", "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{"283.15`", "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{"273.15`", "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{"263.15`", "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{"253.15`", "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{"243.15`", "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{"233.15`", "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"], ",", 
+   TemplateBox[{"223.15`", "\"K\"", "kelvins", "\"Kelvins\""},
+    "Quantity"]}], "}"}]], "Output",
+ CellChangeTimes->{3.8800624060514154`*^9},
+ CellLabel->"Out[73]=",ExpressionUUID->"305c0ee8-bc29-4fcb-95be-de8add17a8ba"]
+}, Open  ]]
+}, Open  ]]
 },
 WindowSize->{1152., 615.6},
 WindowMargins->{{
   Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+TaggingRules-><|"TryRealOnly" -> False|>,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"74fb6bae-1968-4842-980b-6068f4c711e1"
@@ -37,9 +1645,36 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 154, 3, 67, "Section",ExpressionUUID->"ccafd7ae-c0e0-4f00-bd16-a438a146ba19"],
+Cell[737, 27, 591, 10, 97, "Text",ExpressionUUID->"a1e6dcaa-9d39-4ca6-9abc-f214f9bdf65b"],
+Cell[CellGroupData[{
+Cell[1353, 41, 372, 9, 28, "Input",ExpressionUUID->"4f08e49f-5c22-46d4-a28c-646127858101"],
+Cell[1728, 52, 10476, 211, 65, "Output",ExpressionUUID->"17c3044a-14ba-454b-8b5b-dbe7879764d6"]
+}, Open  ]],
+Cell[12219, 266, 515, 12, 28, "Input",ExpressionUUID->"25c526fa-0221-4f97-828f-e820c4d9ec5c"],
+Cell[CellGroupData[{
+Cell[12759, 282, 413, 10, 28, "Input",ExpressionUUID->"f268eb6f-1024-4cf2-8a47-6a470b43eaa6"],
+Cell[13175, 294, 1165, 33, 41, "Output",ExpressionUUID->"76f03466-8003-43fd-ab1c-fbd3c49570b3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14377, 332, 12906, 243, 37, "Input",ExpressionUUID->"46768beb-53ae-4d93-8cab-823ce1bf5ee9"],
+Cell[27286, 577, 10532, 214, 65, "Output",ExpressionUUID->"c829f6e6-fb0a-455f-9b07-b79e741a3e28"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37855, 796, 12972, 244, 37, "Input",ExpressionUUID->"a622e994-5b28-4256-a640-07c9e8ad6945"],
+Cell[50830, 1042, 1040, 28, 59, "Output",ExpressionUUID->"2c213cb7-2f57-4425-9d91-7018d47c3f75"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51907, 1075, 13027, 246, 37, "Input",ExpressionUUID->"136b65e6-9029-4ce1-8981-d396901f8ae3"],
+Cell[64937, 1323, 1040, 28, 59, "Output",ExpressionUUID->"9cbc0824-92ef-4c20-bba1-4c7b9cd02a8d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[66014, 1356, 13056, 246, 37, "Input",ExpressionUUID->"5db2d42f-b81a-4bac-8d3a-9c47efc182f4"],
+Cell[79073, 1604, 864, 20, 41, "Output",ExpressionUUID->"305c0ee8-bc29-4fcb-95be-de8add17a8ba"]
+}, Open  ]]
+}, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
